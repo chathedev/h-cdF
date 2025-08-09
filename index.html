@@ -1,341 +1,211 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Globalt Militärregister – VS-simulator</title>
+  <title>Land vs Land – Enkel jämförelse</title>
   <style>
-    :root {
-      --bg:#0b0f17;
-      --panel:#121826;
-      --panel-2:#0f1420;
-      --text:#e6eefc;
-      --muted:#91a3c0;
-      --accent:#6aa3ff;
-      --accent-2:#6effb1;
-      --danger:#ff7186;
-      --win:#74f2a3;
-      --lose:#ff6a6a;
-      --card:#0c1220;
-      --chip:#1a2336;
-      --border:#263248;
-      --shadow:0 10px 30px rgba(0,0,0,.4);
-      --radius:14px;
+    :root{
+      --bg:#f7f9fc; --text:#0b1220; --muted:#5a6b88; --card:#ffffff; --border:#e2e8f0;
+      --accent:#2563eb; --win:#16a34a; --lose:#dc2626; --chip:#eef2f7;
     }
-    * { box-sizing:border-box; }
-    html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; }
-    h1 { font-size: clamp(22px, 2.2vw, 32px); margin:0 0 6px; }
-    .wrap { max-width: 1200px; margin: 24px auto; padding: 0 16px; }
-    header { background: linear-gradient(180deg, rgba(27,43,78,.6), rgba(11,15,23,0)); border:1px solid var(--border); border-radius: var(--radius); padding: 18px 18px; box-shadow: var(--shadow); }
-    header p { margin: 6px 0 0; color: var(--muted); }
-    .grid { display:grid; grid-template-columns: 1.2fr .8fr; gap: 16px; margin-top:16px; }
-    @media (max-width: 940px) { .grid { grid-template-columns: 1fr; } }
-    .card { background: linear-gradient(180deg, var(--panel), var(--panel-2)); border:1px solid var(--border); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow); }
-    .controls { display:grid; gap:12px; grid-template-columns: 1fr 1fr; }
-    .controls .row { display:flex; gap:8px; align-items:center; }
-    select, input[type="text"] { width:100%; background:var(--chip); border:1px solid var(--border); border-radius:10px; color:var(--text); padding:10px 12px; outline:none; }
-    button { background: linear-gradient(180deg, #2a3f6a, #24385e); border:1px solid var(--border); color:var(--text); padding:10px 14px; border-radius:12px; cursor:pointer; font-weight:600; }
-    button:hover { filter: brightness(1.1); }
-    .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:6px; }
-    .chip { font-size:12px; padding:6px 10px; border-radius:999px; background: var(--chip); border: 1px solid var(--border); color: var(--muted); }
-    .panel-title { font-size: 14px; color: var(--muted); margin-bottom:8px; }
-    .vs { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
-    .vs .country { background: var(--card); border:1px solid var(--border); border-radius:12px; padding:12px; }
-    .big { font-size: 28px; font-weight: 800; letter-spacing:.5px; }
-    .muted { color: var(--muted); }
-    canvas { width:100%; height:280px; background: radial-gradient(1200px 300px at 50% -20%, rgba(106,163,255,.15), transparent); border-radius: 12px; border: 1px solid var(--border); }
-    .footnote { color:var(--muted); font-size:12px; }
-    .result { display:flex; align-items:center; gap:10px; font-weight:700; }
-    .result.win { color:var(--win); }
-    .result.lose { color:var(--lose); }
-    .kpi { display:grid; grid-template-columns: repeat(4,1fr); gap:10px; margin-top:10px; }
-    .kpi .box { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:10px; }
-    .kpi .box .label { font-size:12px; color:var(--muted); }
-    .kpi .box .val { font-size:18px; font-weight:700; }
-    .badge { display:inline-block; padding:4px 8px; border:1px solid var(--border); background:var(--chip); border-radius:999px; font-size:12px; color:var(--muted); }
+    *{box-sizing:border-box}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; background:var(--bg); color:var(--text)}
+    .wrap{max-width:920px; margin:32px auto; padding:0 16px}
+    header{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px}
+    h1{font-size:22px; margin:0 0 6px}
+    p{margin:6px 0 0; color:var(--muted)}
+    .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-top:16px}
+    .row{display:grid; grid-template-columns: 1fr 1fr auto; gap:10px}
+    label{font-size:12px; color:var(--muted)}
+    input, select, button{font:inherit}
+    input, select{width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--border); background:#fff}
+    button{padding:10px 14px; border-radius:10px; border:1px solid var(--border); background:var(--accent); color:#fff; font-weight:600; cursor:pointer}
+    button:disabled{opacity:.6; cursor:not-allowed}
+    .hidden{display:none}
+    .winner{display:flex; align-items:center; gap:10px; padding:10px 12px; border-radius:10px; border:1px solid var(--border); background:var(--chip); margin-top:10px}
+    .winner strong{font-size:16px}
+    .grid2{display:grid; grid-template-columns: 1fr 120px 1fr; gap:8px; margin-top:10px}
+    .hdr{font-size:12px; color:var(--muted)}
+    .cell{padding:10px; border:1px solid var(--border); border-radius:10px; background:#fff}
+    .metric{font-size:12px; color:var(--muted); margin-bottom:4px}
+    .val{font-weight:700}
+    .pill{display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background:var(--chip); color:var(--muted); font-size:12px}
+    .good{color:var(--win)}
+    .bad{color:var(--lose)}
+    .foot{font-size:12px; color:var(--muted); margin-top:12px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>Globalt Militärregister <span class="badge">Beta</span></h1>
-      <p>Jämför länders militärkraft, visa siffror och kör en <em>förenklad, fiktiv</em> VS-simulering. Data hämtas från <code>countries.json</code> (lägg in korrekta värden där). Resultat är inte realistiska stridsbedömningar.</p>
-      <div class="chips">
-        <span class="chip">Kärnvapenstatus</span>
-        <span class="chip">Ubåtar</span>
-        <span class="chip">Stridsvagnar</span>
-        <span class="chip">Personal</span>
-        <span class="chip">Försvarsbudget</span>
-      </div>
+      <h1>Land vs Land (Light)</h1>
+      <p>Välj två länder och tryck <strong>Jämför</strong>. Inget visas förrän du väljer. Data hämtas från <code>countries.json</code>.</p>
     </header>
 
-    <div class="grid">
-      <section class="card">
-        <div class="controls">
-          <div class="row">
-            <label style="width:80px;" for="aSel">Land A</label>
-            <select id="aSel"></select>
-          </div>
-          <div class="row">
-            <label style="width:80px;" for="bSel">Land B</label>
-            <select id="bSel"></select>
-          </div>
-          <div class="row" style="grid-column:1 / -1;">
-            <input id="search" type="text" placeholder="Sök land..." />
-            <button id="swap">Byt A ⇄ B</button>
-            <button id="simulate">Simulera</button>
-          </div>
+    <section class="card">
+      <div class="row">
+        <div>
+          <label for="aSel">Land A</label>
+          <input id="aInput" list="countryList" placeholder="Sök land ..." />
         </div>
-
-        <div class="kpi" id="kpi"></div>
-
-        <div style="margin-top:12px;">
-          <div class="panel-title">Översikt (poäng &amp; budget)</div>
-          <canvas id="chart"></canvas>
+        <div>
+          <label for="bSel">Land B</label>
+          <input id="bInput" list="countryList" placeholder="Sök land ..." />
         </div>
-
-        <div style="margin-top:12px;">
-          <div class="panel-title">Detaljer (tanks / flyg / ubåtar / personal)</div>
-          <canvas id="chart2"></canvas>
+        <div style="display:flex; align-items:end;">
+          <button id="compareBtn" disabled>Jämför</button>
         </div>
+      </div>
+      <datalist id="countryList"></datalist>
 
-        <p class="footnote">Tips: Öppna sidan via en lokal server för att ladda <code>countries.json</code> korrekt (t.ex. <code>python -m http.server</code>). Faller tillbaka till inbäddad demo om hämtning blockeras.</p>
-      </section>
+      <div id="result" class="hidden">
+        <div id="winner" class="winner"></div>
+        <div class="grid2">
+          <div class="hdr">Land A</div>
+          <div class="hdr" style="text-align:center">Mått</div>
+          <div class="hdr" style="text-align:right">Land B</div>
 
-      <aside class="card">
-        <div class="panel-title">VS-simulering (förenklad)</div>
-        <div id="vsBox" class="vs">
-          <div class="country" id="cardA"></div>
-          <div class="country" id="cardB"></div>
+          <!-- rows will be injected here -->
+          <div id="rows" style="grid-column:1/-1"></div>
         </div>
-        <div style="margin-top:12px" id="simOut"></div>
-        <p class="footnote">Modellen räknar fram en <strong>Kraftpoäng</strong> (0–100) baserat på budget, personal, materiel och ubåtsförmåga. Kärnvapen påverkar endast avskräckning (+bonus), inte skadeverkan.</p>
-      </aside>
-    </div>
+        <div class="foot">Modellen normaliserar varje mått över hela datamängden (log-skala) och väger ihop till en poäng. Kärnvapen ger liten avskräckningsbonus (inte skadeverkan). Detta är en förenklad, icke-realistisk jämförelse.</div>
+      </div>
+    </section>
   </div>
 
   <script>
-    // Fallback demo if fetch of countries.json fails (e.g. file://)
-    const FALLBACK = {
-      schema: "v1",
-      countries: [
-        { name: "Sverige", code: "SVE", population: 10500000, gdpUSD: 700000000000, defenseBudgetUSD: 12000000000,
-           forces: { activePersonnel: 25000, reservePersonnel: 20000 },
-           equipment: { tanks: 120, armoredVehicles: 2000, artillery: 200, aircraft: 140, helicopters: 50, ships: 120,
-             submarines: { total:5, SSK:5, SSN:0, SSBN:0, AIP:5 }, airDefenseScore: 60 },
-           nuclear: { status:"none", estimatedWarheads:null },
-           notes:"Demo-data, ersätt med källgranskade siffror."
-        },
-        { name: "USA", code: "USA", population: 333000000, gdpUSD: 27000000000000, defenseBudgetUSD: 850000000000,
-           forces: { activePersonnel: 1300000, reservePersonnel: 800000 },
-           equipment: { tanks: 6500, armoredVehicles: 40000, artillery: 2000, aircraft: 13000, helicopters: 5000, ships: 490,
-             submarines: { total:68, SSK:0, SSN:50, SSBN:14, AIP:0 }, airDefenseScore: 85 },
-           nuclear: { status:"declared", estimatedWarheads: 5000 },
-           notes:"Demo"
-        },
-        { name: "Ryssland", code: "RYS", population: 146000000, gdpUSD: 2200000000000, defenseBudgetUSD: 100000000000,
-           forces: { activePersonnel: 1000000, reservePersonnel: 2000000 },
-           equipment: { tanks: 12000, armoredVehicles: 30000, artillery: 12000, aircraft: 4200, helicopters: 1500, ships: 600,
-             submarines: { total:58, SSK:22, SSN:26, SSBN:10, AIP:0 }, airDefenseScore: 80 },
-           nuclear: { status:"declared", estimatedWarheads: 5500 },
-           notes:"Demo"
-        }
-      ]
+    // --- Helpers ---
+    const fmt = (v)=>{
+      if(v==null) return '–';
+      if(typeof v!=='number' || isNaN(v)) return String(v);
+      if(v>=1e12) return (v/1e12).toFixed(2)+' tn';
+      if(v>=1e9) return (v/1e9).toFixed(2)+' md';
+      if(v>=1e6) return (v/1e6).toFixed(1)+' M';
+      if(v>=1e3) return (v/1e3).toFixed(1)+' k';
+      return String(v);
     };
+    const n = (v)=> (typeof v==='number' && !Number.isNaN(v)) ? v : 0;
 
-    async function loadData() {
-      try {
-        const res = await fetch('countries.json', { cache: 'no-store' });
-        if (!res.ok) throw new Error('HTTP '+res.status);
-        const json = await res.json();
-        return json;
-      } catch (e) {
-        console.warn('Kunde inte läsa countries.json, använder fallback:', e);
-        return FALLBACK;
+    // Load dataset
+    async function loadData(){
+      const res = await fetch('countries.json', {cache:'no-store'});
+      if(!res.ok) throw new Error('Kunde inte läsa countries.json');
+      const js = await res.json();
+      return js.countries || js;
+    }
+
+    // Extract comparable metrics from a country object
+    function metrics(c){
+      return {
+        budget: n(c.defenseBudgetUSD),
+        active: n(c.forces?.activePersonnel),
+        aircraft: n(c.equipment?.aircraft),
+        tanks: n(c.equipment?.tanks),
+        subs: n(c.equipment?.submarines?.total) + Math.min(5, n(c.equipment?.submarines?.AIP))*0.5, // liten bonus för AIP
+        airdef: n(c.equipment?.airDefenseScore),
+        nuclear: c.nuclear?.status==='declared' ? 100 : c.nuclear?.status==='undeclared' ? 50 : 0,
+      };
+    }
+
+    // Build normalizers from full dataset using log scaling to be fair
+    function buildNormalizers(all){
+      const keys = ['budget','active','aircraft','tanks','subs','airdef','nuclear'];
+      const mAll = all.map(metrics);
+      const ranges = {};
+      for(const k of keys){
+        const arr = mAll.map(m=>m[k]).filter(x=>typeof x==='number');
+        const min = Math.min(...arr, 0);
+        const max = Math.max(...arr, 1);
+        const lmin = Math.log10(1+Math.max(0,min));
+        const lmax = Math.log10(1+Math.max(0,max));
+        ranges[k] = {min,max,lmin,lmax};
       }
+      function norm(k, v){
+        const r = ranges[k];
+        const lv = Math.log10(1+Math.max(0, v));
+        const span = Math.max(1e-6, r.lmax - r.lmin);
+        return Math.max(0, Math.min(1, (lv - r.lmin) / span));
+      }
+      return { norm };
     }
 
-    function n(v) { return (typeof v === 'number' && !Number.isNaN(v)) ? v : 0; }
-    function fmt(nr) {
-      if (nr === null || nr === undefined) return '–';
-      if (nr >= 1e12) return (nr/1e12).toFixed(2)+' tn';
-      if (nr >= 1e9) return (nr/1e9).toFixed(2)+' md';
-      if (nr >= 1e6) return (nr/1e6).toFixed(1)+' M';
-      if (nr >= 1e3) return (nr/1e3).toFixed(1)+' k';
-      return String(nr);
+    // Weighted score (weights sum to 1)
+    const WEIGHTS = { budget:.25, active:.18, aircraft:.2, tanks:.15, subs:.1, airdef:.09, nuclear:.03 };
+
+    function score(m, norm){
+      let s = 0; const parts = {};
+      for(const k in WEIGHTS){
+        const v = norm(k, m[k]);
+        const w = WEIGHTS[k];
+        parts[k] = {norm:v, contrib: v*w};
+        s += v*w;
+      }
+      return { total: s*100, parts };
     }
 
-    // Very simplified "power score" 0–100
-    function powerScore(c) {
-      const B = Math.log10(1 + n(c.defenseBudgetUSD)/1e9);      // 0..~3
-      const P = Math.log10(1 + n(c.forces?.activePersonnel));    // 0..~6 -> ~0..6
-      const T = Math.log10(1 + n(c.equipment?.tanks));           // 0..4
-      const A = Math.log10(1 + n(c.equipment?.aircraft));        // 0..4
-      const S = Math.log10(1 + n(c.equipment?.submarines?.total)); // 0..2
-      const AD = (n(c.equipment?.airDefenseScore) / 100) * 1.0;  // 0..1
-      const NU = (c.nuclear?.status === 'declared' ? 1.0 : (c.nuclear?.status === 'undeclared' ? 0.4 : 0.0));
-      // Weights tuned to keep output in a sensible 0–100-ish range
-      let raw = B*10 + P*5 + T*4 + A*5 + S*4 + AD*6 + NU*6;
-      return Math.max(0, Math.min(100, raw));
+    function decide(a,b){
+      const diff = Math.abs(a.total - b.total);
+      // Beslutstid: 10–60 dagar, snabbare vid större skillnad
+      const ttd = Math.round(60 - Math.min(50, diff*0.6));
+      return { ttd: Math.max(10, ttd) };
     }
 
-    // Endurance "hållbarhet" in dagar (toy)
-    function enduranceDays(c) {
-      const budget = n(c.defenseBudgetUSD);
-      const act = Math.max(1, n(c.forces?.activePersonnel));
-      const base = (budget/1e9) / Math.log10(10+act/10000); // a few hundred days for large budgets
-      return Math.round(Math.max(30, Math.min(3650, base*60))); // clamp 1–10 år
-    }
+    // UI
+    (async function(){
+      let countries = [];
+      try{ countries = await loadData(); }catch(err){ alert(err.message); return; }
 
-    function fillSelect(sel, items) {
-      sel.innerHTML = '';
-      for (const c of items) {
+      // Build datalist
+      const dl = document.getElementById('countryList');
+      countries.sort((a,b)=>a.name.localeCompare(b.name,'sv')).forEach(c=>{
         const o = document.createElement('option');
-        o.value = c.code; o.textContent = c.name;
-        sel.appendChild(o);
-      }
-    }
-
-    function cardHTML(c) {
-      return `
-        <div class="big">${c.name}</div>
-        <div class="muted">Kärnvapen: <strong>${c.nuclear?.status || 'none'}</strong> ${c.nuclear?.estimatedWarheads ? '('+c.nuclear.estimatedWarheads+')' : ''}</div>
-        <div class="kpi" style="grid-template-columns: repeat(2,1fr); margin-top:8px;">
-          <div class="box"><div class="label">Budget</div><div class="val">$ ${fmt(c.defenseBudgetUSD)}</div></div>
-          <div class="box"><div class="label">Aktiv styrka</div><div class="val">${fmt(c.forces?.activePersonnel)}</div></div>
-          <div class="box"><div class="label">Tanks</div><div class="val">${fmt(c.equipment?.tanks)}</div></div>
-          <div class="box"><div class="label">Ubåtar</div><div class="val">${fmt(c.equipment?.submarines?.total)}</div></div>
-        </div>
-      `;
-    }
-
-    function drawBarChart(canvas, labels, va, vb, colorA='#6aa3ff', colorB='#6effb1') {
-      const ctx = canvas.getContext('2d');
-      const W = canvas.width = canvas.clientWidth * window.devicePixelRatio;
-      const H = canvas.height = canvas.clientHeight * window.devicePixelRatio;
-      ctx.clearRect(0,0,W,H);
-      const pad = 40 * window.devicePixelRatio;
-      const barW = (W - pad*2) / (labels.length*3);
-      const maxV = Math.max(1, ...va, ...vb);
-      ctx.lineWidth = 2 * window.devicePixelRatio;
-      ctx.strokeStyle = 'rgba(255,255,255,.08)';
-      for (let i=0;i<=4;i++) {
-        const y = pad + (H-pad*2) * i/4;
-        ctx.beginPath(); ctx.moveTo(pad,y); ctx.lineTo(W-pad,y); ctx.stroke();
-      }
-      ctx.font = `${12*window.devicePixelRatio}px system-ui,Arial`;
-      ctx.textBaseline = 'top';
-      ctx.fillStyle = 'rgba(255,255,255,.75)';
-      labels.forEach((lb, i) => {
-        const x0 = pad + i*3*barW;
-        // A
-        let hA = Math.max(2, (H-pad*2) * (va[i]/maxV));
-        ctx.fillStyle = colorA;
-        ctx.fillRect(x0, H-pad-hA, barW*1.2, hA);
-        // B
-        let hB = Math.max(2, (H-pad*2) * (vb[i]/maxV));
-        ctx.fillStyle = colorB;
-        ctx.fillRect(x0+barW*1.4, H-pad-hB, barW*1.2, hB);
-        // label
-        ctx.fillStyle = 'rgba(255,255,255,.7)';
-        ctx.fillText(lb, x0, H-pad+6);
-      });
-    }
-
-    function updateKPI(a, b) {
-      const el = document.getElementById('kpi');
-      const pA = powerScore(a), pB = powerScore(b);
-      const eA = enduranceDays(a), eB = enduranceDays(b);
-      el.innerHTML = `
-        <div class="box"><div class="label">Kraftpoäng A</div><div class="val">${pA.toFixed(1)}</div></div>
-        <div class="box"><div class="label">Kraftpoäng B</div><div class="val">${pB.toFixed(1)}</div></div>
-        <div class="box"><div class="label">Hållbarhet A</div><div class="val">${eA} dagar</div></div>
-        <div class="box"><div class="label">Hållbarhet B</div><div class="val">${eB} dagar</div></div>
-      `;
-    }
-
-    function simulate(a, b) {
-      const pA = powerScore(a), pB = powerScore(b);
-      const diff = Math.max(0.5, Math.abs(pA - pB));
-      const winner = pA >= pB ? a : b;
-      const loser = pA >= pB ? b : a;
-      // "Time to decision" inversely with advantage; 6 till 60 dagar
-      const ttd = Math.round(60 / (diff/5));
-      const text = `Vinnare: <strong>${winner.name}</strong> · Beslut på ~ <strong>${ttd} dagar</strong> (skillnad ${diff.toFixed(1)} p)`;
-      return { winner, loser, ttd, text, pA, pB };
-    }
-
-    function updateVS(a, b, result) {
-      document.getElementById('cardA').innerHTML = cardHTML(a);
-      document.getElementById('cardB').innerHTML = cardHTML(b);
-      const out = document.getElementById('simOut');
-      const wA = result.winner.code === a.code;
-      out.innerHTML = `
-        <div class="result ${ wA ? 'win' : 'lose' }">A: ${a.name} · ${result.pA.toFixed(1)} p</div>
-        <div class="result ${ !wA ? 'win' : 'lose' }">B: ${b.name} · ${result.pB.toFixed(1)} p</div>
-        <div style="margin-top:8px;">${result.text}</div>
-        <div class="footnote" style="margin-top:6px;">Observera: Detta är en förenklad, icke-realistisk modell endast för visualisering.</div>
-      `;
-    }
-
-    (async function main(){
-      const data = await loadData();
-      let countries = data.countries;
-      countries = countries.sort((a,b)=>a.name.localeCompare(b.name,'sv'));
-      const aSel = document.getElementById('aSel');
-      const bSel = document.getElementById('bSel');
-      const search = document.getElementById('search');
-
-      function refreshSelects(list) {
-        fillSelect(aSel, list);
-        fillSelect(bSel, list);
-        // Preselect sensible defaults
-        const ai = list.findIndex(x=>x.name==='Sverige');
-        aSel.selectedIndex = ai >=0 ? ai : 0;
-        bSel.selectedIndex = Math.min((ai>=0?ai+1:1), list.length-1);
-      }
-
-      refreshSelects(countries);
-
-      search.addEventListener('input', () => {
-        const q = search.value.toLowerCase();
-        const flt = countries.filter(c => c.name.toLowerCase().includes(q));
-        refreshSelects(flt.length ? flt : countries);
+        o.value = c.name; dl.appendChild(o);
       });
 
-      document.getElementById('swap').addEventListener('click', () => {
-        const a = aSel.value; const b = bSel.value;
-        bSel.value = a; aSel.value = b;
-        drawAll();
+      const A = document.getElementById('aInput');
+      const B = document.getElementById('bInput');
+      const btn = document.getElementById('compareBtn');
+      const result = document.getElementById('result');
+      const winner = document.getElementById('winner');
+      const rows = document.getElementById('rows');
+
+      function ready(){ btn.disabled = !(A.value && B.value && A.value!==B.value); }
+      A.addEventListener('input', ready); B.addEventListener('input', ready);
+
+      const norm = buildNormalizers(countries);
+
+      btn.addEventListener('click', ()=>{
+        const ca = countries.find(c=>c.name.toLowerCase()===A.value.toLowerCase());
+        const cb = countries.find(c=>c.name.toLowerCase()===B.value.toLowerCase());
+        if(!ca || !cb){ alert('Hitta båda länderna i listan.'); return; }
+        const ma = metrics(ca), mb = metrics(cb);
+        const sa = score(ma, norm.norm); const sb = score(mb, norm.norm);
+        const { ttd } = decide(sa, sb);
+        const w = sa.total===sb.total ? null : (sa.total>sb.total? ca : cb);
+
+        // Winner banner
+        winner.innerHTML = w
+          ? `<span class="pill">Vinnare</span> <strong>${w.name}</strong> · poäng ${ (w===ca?sa.total:sb.total).toFixed(1) } – beslut på ~ ${ttd} dagar`
+          : `<span class="pill">Oavgjort</span> <strong>${ca.name}</strong> vs <strong>${cb.name}</strong> · ~ ${ttd} dagar`;
+
+        // Rows: show each metric side-by-side
+        const labels = {
+          budget:'Försvarsbudget (USD)', active:'Aktiv personal', aircraft:'Flygplan', tanks:'Stridsvagnar', subs:'Ubåtsförmåga (just.)', airdef:'Luftförsvar (0–100)', nuclear:'Kärnvapendisk.'
+        };
+
+        const makeRow = (key)=>{
+          const av = ma[key], bv = mb[key];
+          const an = sa.parts[key].norm, bn = sb.parts[key].norm;
+          const left = `<div class="cell"><div class="metric">${ca.name}</div><div class="val ${an>bn?'good': an<bn?'bad':''}">${fmt(av)}</div></div>`;
+          const mid = `<div class="cell" style="text-align:center"><div class="metric">${labels[key]}</div><div class="val">${(WEIGHTS[key]*100).toFixed(0)}% vikt</div></div>`;
+          const right = `<div class="cell" style="text-align:right"><div class="metric">${cb.name}</div><div class="val ${bn>an?'good': bn<an?'bad':''}">${fmt(bv)}</div></div>`;
+          return left+mid+right;
+        };
+
+        rows.innerHTML = ['budget','active','aircraft','tanks','subs','airdef','nuclear'].map(makeRow).join('');
+        result.classList.remove('hidden');
       });
-
-      document.getElementById('simulate').addEventListener('click', drawAll);
-
-      function drawAll(){
-        const A = countries.find(c=>c.code===aSel.value) || countries[0];
-        const B = countries.find(c=>c.code===bSel.value) || countries[1];
-        updateKPI(A,B);
-        // Chart 1: power, budget
-        drawBarChart(
-          document.getElementById('chart'),
-          ['Kraftpoäng','Budget (USD md)'],
-          [ powerScore(A), n(A.defenseBudgetUSD)/1e9 ],
-          [ powerScore(B), n(B.defenseBudgetUSD)/1e9 ]
-        );
-        // Chart 2: tanks/air/subs/personnel
-        drawBarChart(
-          document.getElementById('chart2'),
-          ['Tanks','Flygplan','Ubåtar','Aktiv pers. (k)'],
-          [ n(A.equipment?.tanks), n(A.equipment?.aircraft), n(A.equipment?.submarines?.total), n(A.forces?.activePersonnel)/1000 ],
-          [ n(B.equipment?.tanks), n(B.equipment?.aircraft), n(B.equipment?.submarines?.total), n(B.forces?.activePersonnel)/1000 ],
-          '#6aa3ff','#6effb1'
-        );
-        const result = simulate(A,B);
-        updateVS(A,B,result);
-      }
-
-      drawAll();
-      window.addEventListener('resize', drawAll);
     })();
   </script>
 </body>
