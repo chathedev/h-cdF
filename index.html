@@ -3,71 +3,191 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Militärregister – Världens länder</title>
+  <meta name="description" content="Militärregister – professionell jämförelse av länders militärkapacitet." />
+  <title>Militärregister – Professionell jämförelse</title>
   <style>
     :root{
-      --bg:#f6f8fb; --text:#0a1020; --muted:#5b6b89; --card:#ffffff; --border:#e6ecf5; --accent:#3b82f6;
+      --bg:#f8fafc; --surface:#ffffff; --text:#0f172a; --muted:#64748b; --border:#e2e8f0;
+      --accent:#2563eb; --accent-2:#1e40af; --shadow:0 10px 30px rgba(2,6,23,.08);
     }
     *{box-sizing:border-box}
-    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; color:var(--text); background:linear-gradient(180deg,#f0f4ff 0%, #f6f8fb 40%, #f6f8fb 100%)}
-    .wrap{max-width:1040px; margin:0 auto; padding:28px 16px 48px}
-    header{display:flex; align-items:center; justify-content:space-between}
-    .brand{display:flex; gap:10px; align-items:center}
-    .logo{width:36px; height:36px; border-radius:10px; background:#e6eeff; display:grid; place-items:center; font-weight:800; color:#2b57d6}
+    html,body{margin:0; padding:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; color:var(--text); background:var(--bg)}
     a{color:inherit; text-decoration:none}
+    img{max-width:100%; display:block}
 
-    .hero{margin-top:40px; display:grid; grid-template-columns: 1.1fr .9fr; gap:24px}
-    @media (max-width:950px){.hero{grid-template-columns:1fr}}
-    .hcopy{padding:22px 22px; background:var(--card); border:1px solid var(--border); border-radius:16px}
-    .kicker{font-size:12px; color:var(--muted); letter-spacing:.2px}
-    h1{margin:6px 0 8px; font-size:32px}
-    p{margin:6px 0 0; color:var(--muted)}
-    .cta{margin-top:16px; display:flex; gap:10px}
-    .btn{padding:12px 16px; border-radius:12px; border:1px solid var(--border); font-weight:700; cursor:pointer}
-    .btn.primary{background:var(--accent); color:#fff; border-color:#3575e6}
+    .container{max-width:1200px; margin:0 auto; padding:0 24px}
+    .nav{position:sticky; top:0; z-index:40; backdrop-filter:saturate(180%) blur(6px); background:rgba(248,250,252,.85); border-bottom:1px solid var(--border)}
+    .nav-inner{display:flex; align-items:center; justify-content:space-between; height:64px}
+    .brand{display:flex; gap:10px; align-items:center}
+    .logo{width:36px; height:36px; border-radius:10px; background:linear-gradient(180deg,#e7efff,#dfe8ff); display:grid; place-items:center; font-weight:800; color:#1e40af}
+    .menu{display:flex; gap:22px; align-items:center}
+
+    .btn{display:inline-flex; align-items:center; gap:8px; padding:12px 16px; border-radius:12px; border:1px solid var(--border); background:#fff; font-weight:700; box-shadow:var(--shadow)}
+    .btn.primary{background:linear-gradient(180deg,#3b82f6,#2563eb); color:#fff; border-color:#1e40af}
     .btn.ghost{background:#fff}
+    .btn:hover{transform:translateY(-1px)}
 
-    .panel{padding:22px 22px; background:var(--card); border:1px solid var(--border); border-radius:16px}
-    .list{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px}
-    @media (max-width:950px){.list{grid-template-columns:1fr}}
-    .item{padding:12px; border:1px solid var(--border); border-radius:12px; background:#fff}
-    .muted{color:var(--muted); font-size:13px}
+    /* === HERO (full-bleed) === */
+    .hero{position:relative; overflow:hidden; color:#0b1220; background:
+      radial-gradient(1000px 400px at 60% -10%, rgba(59,130,246,.20), transparent),
+      linear-gradient(180deg,#eef3ff 0%, #f8fafc 55%)}
+    .hero .container{display:grid; grid-template-columns: 1.2fr .8fr; gap:40px; align-items:center; padding-top:90px; padding-bottom:90px}
+    @media (max-width:1000px){.hero .container{grid-template-columns:1fr; gap:22px; padding-top:70px; padding-bottom:70px}}
+    .eyebrow{font-size:12px; letter-spacing:.2px; color:#335398}
+    h1{font-size:clamp(32px,4.5vw,56px); line-height:1.05; margin:8px 0}
+    .lead{font-size:clamp(16px,1.5vw,18px); color:var(--muted); margin-top:10px}
+    .cta{margin-top:20px; display:flex; gap:12px; flex-wrap:wrap}
+    .hero-illus{position:relative}
+    .hero-blob{position:absolute; inset:auto -80px -80px auto; width:min(520px,42vw); height:auto; opacity:.9; filter:drop-shadow(0 12px 30px rgba(37,99,235,.25))}
+
+    /* === SECTION: Highlights === */
+    section{padding:56px 0}
+    .section-head{display:flex; align-items:flex-end; justify-content:space-between; gap:16px; margin-bottom:20px}
+    .section-head h2{margin:0; font-size:clamp(22px,2.8vw,32px)}
+    .section-head p{margin:0; color:var(--muted)}
+
+    .highlights{display:grid; grid-template-columns:repeat(3,1fr); gap:18px}
+    @media (max-width:1000px){.highlights{grid-template-columns:1fr}}
+    .hl{background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:18px; box-shadow:var(--shadow)}
+    .hl .icon{width:40px; height:40px; border-radius:12px; background:#e9f0ff; color:#1e40af; display:grid; place-items:center; font-weight:800; margin-bottom:8px}
+    .hl h3{margin:2px 0 6px; font-size:18px}
+    .hl p{margin:0; color:var(--muted)}
+
+    /* === SECTION: Method (split) === */
+    .method{display:grid; grid-template-columns: 1fr 1fr; gap:28px}
+    @media (max-width:1000px){.method{grid-template-columns:1fr}}
+    .method .panel{background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:var(--shadow)}
+    .steps{counter-reset: step}
+    .step{display:flex; gap:14px; align-items:flex-start; margin:12px 0}
+    .step:before{counter-increment: step; content: counter(step); flex:0 0 28px; height:28px; border-radius:999px; display:grid; place-items:center; background:#e9f0ff; color:#1e40af; font-weight:800}
+    .step strong{display:block}
+    .muted{color:var(--muted)}
+
+    /* === CTA band === */
+    .cta-band{margin-top:10px; border:1px solid var(--border); border-radius:16px; background:linear-gradient(180deg,#ffffff,#f6f9ff); padding:18px 20px; display:flex; gap:14px; align-items:center; justify-content:space-between; box-shadow:var(--shadow)}
+    @media (max-width:780px){.cta-band{flex-direction:column; align-items:flex-start}}
+
+    /* Footer */
+    footer{margin-top:30px; padding:26px 0; border-top:1px solid var(--border); color:var(--muted)}
+    .foot-grid{display:grid; grid-template-columns:1fr auto; gap:12px}
+    @media (max-width:780px){.foot-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
+  <nav class="nav">
+    <div class="container nav-inner">
       <div class="brand"><div class="logo">MR</div><strong>Militärregister</strong></div>
-      <nav><a href="start.html" class="btn ghost">Starta jämförelse →</a></nav>
-    </header>
+      <div class="menu">
+        <a href="#funktioner">Funktioner</a>
+        <a href="#metod">Metod</a>
+        <a href="countries.json">Data</a>
+        <a class="btn primary" href="start.html">Starta jämförelse →</a>
+      </div>
+    </div>
+  </nav>
 
-    <section class="hero">
-      <div class="hcopy">
-        <div class="kicker">GLOBAL ÖVERSIKT</div>
-        <h1>Jämför länder – tydligt, rättvist och snyggt</h1>
-        <p>Byggt för snabb jämförelse av militär kapacitet med log-normaliserade mått och transparent viktning. 
-        Stöd för ubåtskvalitet (AIP/stealth), uthållighetsbedömning och beslutsäkerhet.</p>
+  <!-- HERO: Full-bleed med stor rubrik och CTA -->
+  <header class="hero">
+    <div class="container">
+      <div>
+        <div class="eyebrow">GLOBAL ÖVERSIKT</div>
+        <h1>Jämför länders militärkapacitet
+          <br/>tydligt, rättvist och professionellt</h1>
+        <p class="lead">Log-normaliserade mått, transparent viktning och kvalitetsjusterad ubåtsförmåga (AIP/stealth & Östersjön-optimering). Dessutom uthållighet och beslutsäkerhet i ett rent gränssnitt.</p>
         <div class="cta">
           <a class="btn primary" href="start.html">Starta jämförelse</a>
           <a class="btn ghost" href="countries.json">Se datafil</a>
         </div>
       </div>
-      <div class="panel">
-        <h3 style="margin:0 0 8px">Hur det funkar</h3>
-        <div class="list">
-          <div class="item"><strong>1. Välj två länder</strong><div class="muted">Autocomplete på svenska. Inget visas förrän du väljer.</div></div>
-          <div class="item"><strong>2. Rättvis normalisering</strong><div class="muted">Log-skala per mått för att undvika att jättar dominerar enbart på volym.</div></div>
-          <div class="item"><strong>3. Ubåtar: antal + kvalitet</strong><div class="muted">AIP/stealth ger extra kvalitetspoäng. Sverige får rättvist plus.</div></div>
-          <div class="item"><strong>4. Uthållighet & beslut</strong><div class="muted">Beräknad uthållighet (dagar) och beslutsäkerhet i % baserat på data.</div></div>
+      <div class="hero-illus">
+        <!-- dekorativ våg/kurva -->
+        <svg class="hero-blob" viewBox="0 0 600 420" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M40 300 C 180 220, 260 420, 420 300 C 520 230, 560 80, 600 40" stroke="#93b4ff" stroke-width="22" stroke-linecap="round"/>
+          <path d="M20 360 C 140 260, 280 360, 420 260" stroke="#2563eb" stroke-opacity=".25" stroke-width="28" stroke-linecap="round"/>
+          <circle cx="160" cy="180" r="16" fill="#2563eb" opacity=".25"/>
+          <circle cx="490" cy="120" r="10" fill="#2563eb" opacity=".18"/>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HIGHLIGHTS: tre pelare utan "cards"-känsla -->
+    <section id="funktioner">
+      <div class="container">
+        <div class="section-head">
+          <h2>Varför detta fungerar</h2>
+          <p>Byggd för snabb, rättvis och begriplig jämförelse – inte för propaganda.</p>
+        </div>
+        <div class="highlights">
+          <div class="hl">
+            <div class="icon">A</div>
+            <h3>Rättvis normalisering</h3>
+            <p>Log-skala per mått låter små och medelstora länder synas, utan att jättar vinner på ren volym.</p>
+          </div>
+          <div class="hl">
+            <div class="icon">U</div>
+            <h3>Ubåtar: antal + kvalitet</h3>
+            <p>AIP/stealth och Östersjö-optimering ger kvalitetspoäng. Det gynnar tysta, högteknologiska flottor som Sveriges.</p>
+          </div>
+          <div class="hl">
+            <div class="icon">Σ</div>
+            <h3>Transparent poäng</h3>
+            <p>Budget 25%, Aktiv personal 18%, Flyg 19%, Stridsvagnar 13%, Ubåtar (antal 6% + kvalitet 10%), Luftförsvar 10%, Kärnvapen 3%.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="panel" style="margin-top:24px">
-      <h3 style="margin:0 0 8px">Transparens</h3>
-      <p class="muted">Modellen är förenklad och avsedd för visualisering. Använd <code>countries.json</code> för att lägga in
-        verifierade siffror per land. Poängvikter och metod kan justeras i koden.</p>
+    <!-- METHOD: delad sektion med steg och detaljer -->
+    <section id="metod" style="background:#fff">
+      <div class="container method">
+        <div>
+          <div class="section-head" style="margin-bottom:10px">
+            <h2>Metod & transparens</h2>
+            <p>Enkel att granska, enkel att justera.</p>
+          </div>
+          <div class="steps">
+            <div class="step"><div><strong>1. Dataformat</strong><div class="muted">Allt finns i <code>countries.json</code> (budget, personal, materiel, ubåtar, luftförsvar, kärnvapenstatus).</div></div></div>
+            <div class="step"><div><strong>2. Normalisering</strong><div class="muted">Varje mått log-normaliseras globalt, så jämförelsen blir proportionerlig.</div></div></div>
+            <div class="step"><div><strong>3. Ubåtskvalitet</strong><div class="muted">Separat kvalitetspoäng (AIP/stealth + regional optimering) vägs in utöver antal.</div></div></div>
+            <div class="step"><div><strong>4. Uthållighet & beslut</strong><div class="muted">Uthållighet (dagar) ≈ budget ÷ styrka (logik i koden). Beslutsäkerhet beror på poängskillnad och datatäckning.</div></div></div>
+          </div>
+        </div>
+        <div class="panel">
+          <strong>Snabbstart</strong>
+          <p class="muted" style="margin:6px 0 12px">Du kan justera vikter och regler direkt i koden när du vill fintrimma.</p>
+          <ul class="muted" style="margin:0 0 10px 18px">
+            <li><code>WEIGHTS</code> – ändra viktningen per mått</li>
+            <li><code>AIP_COUNTRIES</code> – lägg till/ta bort länder med AIP/stealth-bonus</li>
+            <li><code>BALTIC_OPT</code> – länder med extra poäng för Östersjön</li>
+          </ul>
+          <div class="cta" style="margin-top:8px">
+            <a class="btn primary" href="start.html">Gå till jämförelsen</a>
+            <a class="btn ghost" href="countries.json">Öppna datafil</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="cta-band">
+          <div>
+            <strong>Redo att testa?</strong>
+            <div class="muted">Välj två länder och se vem som vinner – med uthållighet och beslutsäkerhet.</div>
+          </div>
+          <a class="btn primary" href="start.html">Starta jämförelse →</a>
+        </div>
+      </div>
     </section>
-  </div>
+  </main>
+
+  <footer>
+    <div class="container foot-grid">
+      <div>© <span id="y"></span> Militärregister. Endast för visualisering. Uppdatera din data i <code>countries.json</code>.</div>
+      <div><a href="countries.json">Data</a> · <a href="#metod">Metod</a> · <a href="start.html">Jämför</a></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
 </body>
 </html>
