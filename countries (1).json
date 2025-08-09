@@ -1,0 +1,7041 @@
+{
+  "schema": "v2",
+  "updated": "2025-08-09",
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "code": "AFG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3894910109,
+      "forces": {
+        "activePersonnel": 46771,
+        "reservePersonnel": 74770
+      },
+      "equipment": {
+        "tanks": 42,
+        "armoredVehicles": 134,
+        "artillery": 58,
+        "aircraft": 28,
+        "helicopters": 13,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 73
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Albanien",
+      "code": "ALB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3264383391,
+      "forces": {
+        "activePersonnel": 39064,
+        "reservePersonnel": 55881
+      },
+      "equipment": {
+        "tanks": 33,
+        "armoredVehicles": 105,
+        "artillery": 46,
+        "aircraft": 23,
+        "helicopters": 10,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Algeriet",
+      "code": "ALG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 54243799338,
+      "forces": {
+        "activePersonnel": 270695,
+        "reservePersonnel": 453254
+      },
+      "equipment": {
+        "tanks": 461,
+        "armoredVehicles": 1475,
+        "artillery": 645,
+        "aircraft": 391,
+        "helicopters": 189,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 13,
+        "airDefenseScore": 85
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Andorra",
+      "code": "AND",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4150634222,
+      "forces": {
+        "activePersonnel": 49896,
+        "reservePersonnel": 83168
+      },
+      "equipment": {
+        "tanks": 47,
+        "armoredVehicles": 150,
+        "artillery": 65,
+        "aircraft": 31,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Angola",
+      "code": "ANG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3824322575,
+      "forces": {
+        "activePersonnel": 45908,
+        "reservePersonnel": 72526
+      },
+      "equipment": {
+        "tanks": 41,
+        "armoredVehicles": 131,
+        "artillery": 57,
+        "aircraft": 28,
+        "helicopters": 13,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Antigua och Barbuda",
+      "code": "ANT",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3429799091,
+      "forces": {
+        "activePersonnel": 41086,
+        "reservePersonnel": 60585
+      },
+      "equipment": {
+        "tanks": 35,
+        "armoredVehicles": 112,
+        "artillery": 49,
+        "aircraft": 24,
+        "helicopters": 11,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 69
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Argentina",
+      "code": "ARG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 49004008581,
+      "forces": {
+        "activePersonnel": 244020,
+        "reservePersonnel": 380692
+      },
+      "equipment": {
+        "tanks": 395,
+        "armoredVehicles": 1264,
+        "artillery": 553,
+        "aircraft": 341,
+        "helicopters": 160,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 11,
+        "airDefenseScore": 82
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Armenien",
+      "code": "ARM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2131379345,
+      "forces": {
+        "activePersonnel": 25216,
+        "reservePersonnel": 28452
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Australien",
+      "code": "AUS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 30799236044,
+      "forces": {
+        "activePersonnel": 151341,
+        "reservePersonnel": 175993
+      },
+      "equipment": {
+        "tanks": 200,
+        "armoredVehicles": 640,
+        "artillery": 280,
+        "aircraft": 186,
+        "helicopters": 78,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 5,
+        "airDefenseScore": 68
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Österrike",
+      "code": "ÖST",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1130457735,
+      "forces": {
+        "activePersonnel": 12983,
+        "reservePersonnel": 11184
+      },
+      "equipment": {
+        "tanks": 7,
+        "armoredVehicles": 22,
+        "artillery": 9,
+        "aircraft": 6,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 48
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Azerbajdzjan",
+      "code": "AZE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 953636536,
+      "forces": {
+        "activePersonnel": 10822,
+        "reservePersonnel": 8812
+      },
+      "equipment": {
+        "tanks": 6,
+        "armoredVehicles": 19,
+        "artillery": 8,
+        "aircraft": 5,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 47
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bahamas",
+      "code": "BAH",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1975457335,
+      "forces": {
+        "activePersonnel": 23311,
+        "reservePersonnel": 25334
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bahrain",
+      "code": "BA2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4375325377,
+      "forces": {
+        "activePersonnel": 52642,
+        "reservePersonnel": 90899
+      },
+      "equipment": {
+        "tanks": 51,
+        "armoredVehicles": 163,
+        "artillery": 71,
+        "aircraft": 33,
+        "helicopters": 16,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 77
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bangladesh",
+      "code": "BAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2329620988,
+      "forces": {
+        "activePersonnel": 27639,
+        "reservePersonnel": 32648
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Barbados",
+      "code": "BAR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4544046393,
+      "forces": {
+        "activePersonnel": 54705,
+        "reservePersonnel": 96923
+      },
+      "equipment": {
+        "tanks": 54,
+        "armoredVehicles": 172,
+        "artillery": 75,
+        "aircraft": 35,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Belarus",
+      "code": "BEL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1484293579,
+      "forces": {
+        "activePersonnel": 17308,
+        "reservePersonnel": 16543
+      },
+      "equipment": {
+        "tanks": 11,
+        "armoredVehicles": 35,
+        "artillery": 15,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Belgien",
+      "code": "BE2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 430968998,
+      "forces": {
+        "activePersonnel": 4434,
+        "reservePersonnel": 2992
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 42
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Belize",
+      "code": "BE3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1643997884,
+      "forces": {
+        "activePersonnel": 19259,
+        "reservePersonnel": 19228
+      },
+      "equipment": {
+        "tanks": 12,
+        "armoredVehicles": 38,
+        "artillery": 16,
+        "aircraft": 9,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Benin",
+      "code": "BEN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1674069298,
+      "forces": {
+        "activePersonnel": 19627,
+        "reservePersonnel": 19752
+      },
+      "equipment": {
+        "tanks": 13,
+        "armoredVehicles": 41,
+        "artillery": 18,
+        "aircraft": 10,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bhutan",
+      "code": "BHU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2653151908,
+      "forces": {
+        "activePersonnel": 31594,
+        "reservePersonnel": 40045
+      },
+      "equipment": {
+        "tanks": 24,
+        "armoredVehicles": 76,
+        "artillery": 33,
+        "aircraft": 17,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 62
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bolivia",
+      "code": "BOL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1405285501,
+      "forces": {
+        "activePersonnel": 16342,
+        "reservePersonnel": 15275
+      },
+      "equipment": {
+        "tanks": 10,
+        "armoredVehicles": 32,
+        "artillery": 14,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bosnien och Hercegovina",
+      "code": "BOS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3164698619,
+      "forces": {
+        "activePersonnel": 37846,
+        "reservePersonnel": 53132
+      },
+      "equipment": {
+        "tanks": 31,
+        "armoredVehicles": 99,
+        "artillery": 43,
+        "aircraft": 22,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 66
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Botswana",
+      "code": "BOT",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1916206366,
+      "forces": {
+        "activePersonnel": 22586,
+        "reservePersonnel": 24189
+      },
+      "equipment": {
+        "tanks": 15,
+        "armoredVehicles": 48,
+        "artillery": 21,
+        "aircraft": 11,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 55
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Brasilien",
+      "code": "BRA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 676872836558,
+      "forces": {
+        "activePersonnel": 1609408,
+        "reservePersonnel": 2489179
+      },
+      "equipment": {
+        "tanks": 4318,
+        "armoredVehicles": 13817,
+        "artillery": 6045,
+        "aircraft": 4488,
+        "helicopters": 2101,
+        "submarines": {
+          "total": 5,
+          "SSK": 5,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 258,
+        "airDefenseScore": 91
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Brunei",
+      "code": "BRU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 369970838,
+      "forces": {
+        "activePersonnel": 3688,
+        "reservePersonnel": 2429
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 41
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Bulgarien",
+      "code": "BUL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2813670906,
+      "forces": {
+        "activePersonnel": 33555,
+        "reservePersonnel": 43967
+      },
+      "equipment": {
+        "tanks": 26,
+        "armoredVehicles": 83,
+        "artillery": 36,
+        "aircraft": 19,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Burkina Faso",
+      "code": "BUR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2738578958,
+      "forces": {
+        "activePersonnel": 32638,
+        "reservePersonnel": 42112
+      },
+      "equipment": {
+        "tanks": 25,
+        "armoredVehicles": 80,
+        "artillery": 35,
+        "aircraft": 18,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Burundi",
+      "code": "BU2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3667034981,
+      "forces": {
+        "activePersonnel": 43985,
+        "reservePersonnel": 67643
+      },
+      "equipment": {
+        "tanks": 39,
+        "armoredVehicles": 124,
+        "artillery": 54,
+        "aircraft": 26,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 71
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Cabo Verde",
+      "code": "CAB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2753292621,
+      "forces": {
+        "activePersonnel": 32818,
+        "reservePersonnel": 42473
+      },
+      "equipment": {
+        "tanks": 25,
+        "armoredVehicles": 80,
+        "artillery": 35,
+        "aircraft": 18,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kambodja",
+      "code": "KAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 181362616,
+      "forces": {
+        "activePersonnel": 1383,
+        "reservePersonnel": 841
+      },
+      "equipment": {
+        "tanks": 0,
+        "armoredVehicles": 0,
+        "artillery": 0,
+        "aircraft": 0,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 40
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kamerun",
+      "code": "KA2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1412505030,
+      "forces": {
+        "activePersonnel": 16430,
+        "reservePersonnel": 15389
+      },
+      "equipment": {
+        "tanks": 10,
+        "armoredVehicles": 32,
+        "artillery": 14,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kanada",
+      "code": "KAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 14729891888,
+      "forces": {
+        "activePersonnel": 69533,
+        "reservePersonnel": 56480
+      },
+      "equipment": {
+        "tanks": 73,
+        "armoredVehicles": 233,
+        "artillery": 102,
+        "aircraft": 75,
+        "helicopters": 28,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 2,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Centralafrikanska republiken",
+      "code": "CEN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4156146871,
+      "forces": {
+        "activePersonnel": 49964,
+        "reservePersonnel": 83355
+      },
+      "equipment": {
+        "tanks": 47,
+        "armoredVehicles": 150,
+        "artillery": 65,
+        "aircraft": 31,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tchad",
+      "code": "TCH",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 235038764,
+      "forces": {
+        "activePersonnel": 2039,
+        "reservePersonnel": 1269
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 0,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 40
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Chile",
+      "code": "CHI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 47773900470,
+      "forces": {
+        "activePersonnel": 237758,
+        "reservePersonnel": 364542
+      },
+      "equipment": {
+        "tanks": 380,
+        "armoredVehicles": 1216,
+        "artillery": 532,
+        "aircraft": 330,
+        "helicopters": 153,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 10,
+        "airDefenseScore": 81
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kina",
+      "code": "KIN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 803103984524,
+      "forces": {
+        "activePersonnel": 1894198,
+        "reservePersonnel": 3279560
+      },
+      "equipment": {
+        "tanks": 5520,
+        "armoredVehicles": 17664,
+        "artillery": 7727,
+        "aircraft": 5574,
+        "helicopters": 2739,
+        "submarines": {
+          "total": 70,
+          "SSK": 21,
+          "SSN": 35,
+          "SSBN": 14,
+          "AIP": 6
+        },
+        "ships": 329,
+        "airDefenseScore": 95
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 677
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Colombia",
+      "code": "COL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 43515459463,
+      "forces": {
+        "activePersonnel": 216078,
+        "reservePersonnel": 311225
+      },
+      "equipment": {
+        "tanks": 330,
+        "armoredVehicles": 1056,
+        "artillery": 461,
+        "aircraft": 291,
+        "helicopters": 132,
+        "submarines": {
+          "total": 2,
+          "SSK": 2,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 9,
+        "airDefenseScore": 78
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Komorerna",
+      "code": "KOM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1099208542,
+      "forces": {
+        "activePersonnel": 12601,
+        "reservePersonnel": 10750
+      },
+      "equipment": {
+        "tanks": 7,
+        "armoredVehicles": 22,
+        "artillery": 9,
+        "aircraft": 6,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 48
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kongo (Republiken)",
+      "code": "KON",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 965538670,
+      "forces": {
+        "activePersonnel": 10967,
+        "reservePersonnel": 8965
+      },
+      "equipment": {
+        "tanks": 6,
+        "armoredVehicles": 19,
+        "artillery": 8,
+        "aircraft": 5,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 47
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Costa Rica",
+      "code": "COS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2163971805,
+      "forces": {
+        "activePersonnel": 25615,
+        "reservePersonnel": 29125
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Elfenbenskusten",
+      "code": "ELF",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2410439438,
+      "forces": {
+        "activePersonnel": 28627,
+        "reservePersonnel": 34432
+      },
+      "equipment": {
+        "tanks": 21,
+        "armoredVehicles": 67,
+        "artillery": 29,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kroatien",
+      "code": "KRO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1608051946,
+      "forces": {
+        "activePersonnel": 18820,
+        "reservePersonnel": 18609
+      },
+      "equipment": {
+        "tanks": 12,
+        "armoredVehicles": 38,
+        "artillery": 16,
+        "aircraft": 9,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 52
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kuba",
+      "code": "KUB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3028005985,
+      "forces": {
+        "activePersonnel": 36175,
+        "reservePersonnel": 49468
+      },
+      "equipment": {
+        "tanks": 29,
+        "armoredVehicles": 92,
+        "artillery": 40,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Cypern",
+      "code": "CYP",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 666274643,
+      "forces": {
+        "activePersonnel": 7310,
+        "reservePersonnel": 5392
+      },
+      "equipment": {
+        "tanks": 4,
+        "armoredVehicles": 12,
+        "artillery": 5,
+        "aircraft": 3,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 44
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tjeckien",
+      "code": "TJE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2805838209,
+      "forces": {
+        "activePersonnel": 33460,
+        "reservePersonnel": 43773
+      },
+      "equipment": {
+        "tanks": 26,
+        "armoredVehicles": 83,
+        "artillery": 36,
+        "aircraft": 18,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "DR Kongo",
+      "code": "DRK",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4543524320,
+      "forces": {
+        "activePersonnel": 54698,
+        "reservePersonnel": 96903
+      },
+      "equipment": {
+        "tanks": 54,
+        "armoredVehicles": 172,
+        "artillery": 75,
+        "aircraft": 35,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Danmark",
+      "code": "DAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 43902725991,
+      "forces": {
+        "activePersonnel": 218050,
+        "reservePersonnel": 315907
+      },
+      "equipment": {
+        "tanks": 335,
+        "armoredVehicles": 1072,
+        "artillery": 468,
+        "aircraft": 295,
+        "helicopters": 134,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 9,
+        "airDefenseScore": 78
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Djibouti",
+      "code": "DJI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1508524397,
+      "forces": {
+        "activePersonnel": 17604,
+        "reservePersonnel": 16939
+      },
+      "equipment": {
+        "tanks": 11,
+        "armoredVehicles": 35,
+        "artillery": 15,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 52
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Dominica",
+      "code": "DOM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 278024862,
+      "forces": {
+        "activePersonnel": 2564,
+        "reservePersonnel": 1625
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 41
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Dominikanska republiken",
+      "code": "DO2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2092041606,
+      "forces": {
+        "activePersonnel": 24736,
+        "reservePersonnel": 27651
+      },
+      "equipment": {
+        "tanks": 17,
+        "armoredVehicles": 54,
+        "artillery": 23,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ecuador",
+      "code": "ECU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2016392408,
+      "forces": {
+        "activePersonnel": 23811,
+        "reservePersonnel": 26137
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Egypten",
+      "code": "EGY",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 518247120637,
+      "forces": {
+        "activePersonnel": 1251533,
+        "reservePersonnel": 1645150
+      },
+      "equipment": {
+        "tanks": 2995,
+        "armoredVehicles": 9584,
+        "artillery": 4193,
+        "aircraft": 3248,
+        "helicopters": 1426,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 179,
+        "airDefenseScore": 83
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "El Salvador",
+      "code": "ELS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2677893788,
+      "forces": {
+        "activePersonnel": 31896,
+        "reservePersonnel": 40638
+      },
+      "equipment": {
+        "tanks": 24,
+        "armoredVehicles": 76,
+        "artillery": 33,
+        "aircraft": 17,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 62
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ekvatorialguinea",
+      "code": "EKV",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1429718938,
+      "forces": {
+        "activePersonnel": 16641,
+        "reservePersonnel": 15663
+      },
+      "equipment": {
+        "tanks": 10,
+        "armoredVehicles": 32,
+        "artillery": 14,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Eritrea",
+      "code": "ERI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2315323067,
+      "forces": {
+        "activePersonnel": 27465,
+        "reservePersonnel": 32337
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 14,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Estland",
+      "code": "EST",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3024900812,
+      "forces": {
+        "activePersonnel": 36137,
+        "reservePersonnel": 49386
+      },
+      "equipment": {
+        "tanks": 29,
+        "armoredVehicles": 92,
+        "artillery": 40,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Eswatini",
+      "code": "ESW",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1307184871,
+      "forces": {
+        "activePersonnel": 15143,
+        "reservePersonnel": 13758
+      },
+      "equipment": {
+        "tanks": 9,
+        "armoredVehicles": 28,
+        "artillery": 12,
+        "aircraft": 7,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Etiopien",
+      "code": "ETI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 17519140414,
+      "forces": {
+        "activePersonnel": 83733,
+        "reservePersonnel": 73111
+      },
+      "equipment": {
+        "tanks": 92,
+        "armoredVehicles": 294,
+        "artillery": 128,
+        "aircraft": 93,
+        "helicopters": 35,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 2,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Fiji",
+      "code": "FIJ",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 316214008,
+      "forces": {
+        "activePersonnel": 3031,
+        "reservePersonnel": 1952
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 41
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Finland",
+      "code": "FIN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 52352271889,
+      "forces": {
+        "activePersonnel": 261066,
+        "reservePersonnel": 426357
+      },
+      "equipment": {
+        "tanks": 437,
+        "armoredVehicles": 1398,
+        "artillery": 611,
+        "aircraft": 373,
+        "helicopters": 178,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 12,
+        "airDefenseScore": 84
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Frankrike",
+      "code": "FRA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 794638595168,
+      "forces": {
+        "activePersonnel": 1875099,
+        "reservePersonnel": 3223263
+      },
+      "equipment": {
+        "tanks": 5435,
+        "armoredVehicles": 17392,
+        "artillery": 7608,
+        "aircraft": 5498,
+        "helicopters": 2693,
+        "submarines": {
+          "total": 10,
+          "SSK": 3,
+          "SSN": 5,
+          "SSBN": 2,
+          "AIP": 0
+        },
+        "ships": 324,
+        "airDefenseScore": 95
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 311
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Gabon",
+      "code": "GAB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2473566191,
+      "forces": {
+        "activePersonnel": 29399,
+        "reservePersonnel": 35855
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Gambia",
+      "code": "GAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3803270997,
+      "forces": {
+        "activePersonnel": 45651,
+        "reservePersonnel": 71864
+      },
+      "equipment": {
+        "tanks": 41,
+        "armoredVehicles": 131,
+        "artillery": 57,
+        "aircraft": 28,
+        "helicopters": 13,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Georgien",
+      "code": "GEO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 630239117,
+      "forces": {
+        "activePersonnel": 6869,
+        "reservePersonnel": 5001
+      },
+      "equipment": {
+        "tanks": 3,
+        "armoredVehicles": 9,
+        "artillery": 4,
+        "aircraft": 3,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 44
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tyskland",
+      "code": "TYS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 92988205925,
+      "forces": {
+        "activePersonnel": 292107,
+        "reservePersonnel": 202189
+      },
+      "equipment": {
+        "tanks": 471,
+        "armoredVehicles": 1507,
+        "artillery": 659,
+        "aircraft": 606,
+        "helicopters": 219,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 4
+        },
+        "ships": 23,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ghana",
+      "code": "GHA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1612627007,
+      "forces": {
+        "activePersonnel": 18876,
+        "reservePersonnel": 18687
+      },
+      "equipment": {
+        "tanks": 12,
+        "armoredVehicles": 38,
+        "artillery": 16,
+        "aircraft": 9,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Grekland",
+      "code": "GRE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 25631266647,
+      "forces": {
+        "activePersonnel": 125031,
+        "reservePersonnel": 131299
+      },
+      "equipment": {
+        "tanks": 154,
+        "armoredVehicles": 492,
+        "artillery": 215,
+        "aircraft": 148,
+        "helicopters": 60,
+        "submarines": {
+          "total": 11,
+          "SSK": 11,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 7
+        },
+        "ships": 4,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Grenada",
+      "code": "GR2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1961716856,
+      "forces": {
+        "activePersonnel": 23143,
+        "reservePersonnel": 25066
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Guatemala",
+      "code": "GUA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3680191916,
+      "forces": {
+        "activePersonnel": 44146,
+        "reservePersonnel": 68045
+      },
+      "equipment": {
+        "tanks": 39,
+        "armoredVehicles": 124,
+        "artillery": 54,
+        "aircraft": 26,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 71
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Guinea",
+      "code": "GUI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3236426379,
+      "forces": {
+        "activePersonnel": 38722,
+        "reservePersonnel": 55103
+      },
+      "equipment": {
+        "tanks": 32,
+        "armoredVehicles": 102,
+        "artillery": 44,
+        "aircraft": 22,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Guinea-Bissau",
+      "code": "GU2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4240598189,
+      "forces": {
+        "activePersonnel": 50996,
+        "reservePersonnel": 86225
+      },
+      "equipment": {
+        "tanks": 48,
+        "armoredVehicles": 153,
+        "artillery": 67,
+        "aircraft": 32,
+        "helicopters": 15,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 76
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Guyana",
+      "code": "GUY",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 357806163,
+      "forces": {
+        "activePersonnel": 3539,
+        "reservePersonnel": 2319
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 41
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Haiti",
+      "code": "HAI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3272798944,
+      "forces": {
+        "activePersonnel": 39167,
+        "reservePersonnel": 56116
+      },
+      "equipment": {
+        "tanks": 33,
+        "armoredVehicles": 105,
+        "artillery": 46,
+        "aircraft": 23,
+        "helicopters": 10,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Honduras",
+      "code": "HON",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2453494778,
+      "forces": {
+        "activePersonnel": 29153,
+        "reservePersonnel": 35399
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ungern",
+      "code": "UNG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2362825944,
+      "forces": {
+        "activePersonnel": 28045,
+        "reservePersonnel": 33375
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Island",
+      "code": "ISL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1838766808,
+      "forces": {
+        "activePersonnel": 21640,
+        "reservePersonnel": 22729
+      },
+      "equipment": {
+        "tanks": 14,
+        "armoredVehicles": 44,
+        "artillery": 19,
+        "aircraft": 11,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 55
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Indien",
+      "code": "IND",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 504384193339,
+      "forces": {
+        "activePersonnel": 1220257,
+        "reservePersonnel": 1579281
+      },
+      "equipment": {
+        "tanks": 2889,
+        "armoredVehicles": 9244,
+        "artillery": 4044,
+        "aircraft": 3146,
+        "helicopters": 1374,
+        "submarines": {
+          "total": 20,
+          "SSK": 6,
+          "SSN": 10,
+          "SSBN": 4,
+          "AIP": 1
+        },
+        "ships": 173,
+        "airDefenseScore": 83
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 149
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Indonesien",
+      "code": "IN2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 346760274999,
+      "forces": {
+        "activePersonnel": 864642,
+        "reservePersonnel": 919591
+      },
+      "equipment": {
+        "tanks": 1797,
+        "armoredVehicles": 5750,
+        "artillery": 2515,
+        "aircraft": 2063,
+        "helicopters": 841,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 107,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Iran",
+      "code": "IRA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 87595138561,
+      "forces": {
+        "activePersonnel": 279940,
+        "reservePersonnel": 191558
+      },
+      "equipment": {
+        "tanks": 449,
+        "armoredVehicles": 1436,
+        "artillery": 628,
+        "aircraft": 579,
+        "helicopters": 208,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 22,
+        "airDefenseScore": 62
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Irak",
+      "code": "IR2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2182885654,
+      "forces": {
+        "activePersonnel": 25846,
+        "reservePersonnel": 29518
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 58
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Irland",
+      "code": "IRL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2177023059,
+      "forces": {
+        "activePersonnel": 25774,
+        "reservePersonnel": 29396
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 58
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Israel",
+      "code": "ISR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 13739366663,
+      "forces": {
+        "activePersonnel": 64491,
+        "reservePersonnel": 50991
+      },
+      "equipment": {
+        "tanks": 67,
+        "armoredVehicles": 214,
+        "artillery": 93,
+        "aircraft": 69,
+        "helicopters": 25,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 4
+        },
+        "ships": 2,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "undeclared",
+        "estimatedWarheads": 69
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Italien",
+      "code": "ITA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 824381764091,
+      "forces": {
+        "activePersonnel": 1942202,
+        "reservePersonnel": 3423150
+      },
+      "equipment": {
+        "tanks": 5735,
+        "armoredVehicles": 18352,
+        "artillery": 8028,
+        "aircraft": 5765,
+        "helicopters": 2855,
+        "submarines": {
+          "total": 8,
+          "SSK": 8,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 2
+        },
+        "ships": 341,
+        "airDefenseScore": 95
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Jamaica",
+      "code": "JAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4008126020,
+      "forces": {
+        "activePersonnel": 48154,
+        "reservePersonnel": 78434
+      },
+      "equipment": {
+        "tanks": 44,
+        "armoredVehicles": 140,
+        "artillery": 61,
+        "aircraft": 30,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 74
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Japan",
+      "code": "JAP",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 369085147096,
+      "forces": {
+        "activePersonnel": 915009,
+        "reservePersonnel": 1003053
+      },
+      "equipment": {
+        "tanks": 1940,
+        "armoredVehicles": 6208,
+        "artillery": 2716,
+        "aircraft": 2208,
+        "helicopters": 909,
+        "submarines": {
+          "total": 20,
+          "SSK": 20,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 14
+        },
+        "ships": 116,
+        "airDefenseScore": 76
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Jordanien",
+      "code": "JOR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1674153666,
+      "forces": {
+        "activePersonnel": 19628,
+        "reservePersonnel": 19754
+      },
+      "equipment": {
+        "tanks": 13,
+        "armoredVehicles": 41,
+        "artillery": 18,
+        "aircraft": 10,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kazakstan",
+      "code": "KAZ",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 987263277,
+      "forces": {
+        "activePersonnel": 11233,
+        "reservePersonnel": 9247
+      },
+      "equipment": {
+        "tanks": 6,
+        "armoredVehicles": 19,
+        "artillery": 8,
+        "aircraft": 5,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 47
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kenya",
+      "code": "KEN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2942494026,
+      "forces": {
+        "activePersonnel": 35130,
+        "reservePersonnel": 47238
+      },
+      "equipment": {
+        "tanks": 28,
+        "armoredVehicles": 89,
+        "artillery": 39,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 64
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kiribati",
+      "code": "KIR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3745349645,
+      "forces": {
+        "activePersonnel": 44943,
+        "reservePersonnel": 70055
+      },
+      "equipment": {
+        "tanks": 40,
+        "armoredVehicles": 128,
+        "artillery": 56,
+        "aircraft": 27,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 71
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kuwait",
+      "code": "KUW",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4028780155,
+      "forces": {
+        "activePersonnel": 48407,
+        "reservePersonnel": 79113
+      },
+      "equipment": {
+        "tanks": 45,
+        "armoredVehicles": 144,
+        "artillery": 62,
+        "aircraft": 30,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 74
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kirgizistan",
+      "code": "KI2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2506768700,
+      "forces": {
+        "activePersonnel": 29804,
+        "reservePersonnel": 36613
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Laos",
+      "code": "LAO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3838309997,
+      "forces": {
+        "activePersonnel": 46079,
+        "reservePersonnel": 72968
+      },
+      "equipment": {
+        "tanks": 41,
+        "armoredVehicles": 131,
+        "artillery": 57,
+        "aircraft": 28,
+        "helicopters": 13,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Lettland",
+      "code": "LET",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2459042687,
+      "forces": {
+        "activePersonnel": 29221,
+        "reservePersonnel": 35525
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Libanon",
+      "code": "LIB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 232909395,
+      "forces": {
+        "activePersonnel": 2013,
+        "reservePersonnel": 1252
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 0,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 40
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Lesotho",
+      "code": "LES",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3851634768,
+      "forces": {
+        "activePersonnel": 46242,
+        "reservePersonnel": 73390
+      },
+      "equipment": {
+        "tanks": 42,
+        "armoredVehicles": 134,
+        "artillery": 58,
+        "aircraft": 28,
+        "helicopters": 13,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Liberia",
+      "code": "LI2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3544430829,
+      "forces": {
+        "activePersonnel": 42487,
+        "reservePersonnel": 63950
+      },
+      "equipment": {
+        "tanks": 37,
+        "armoredVehicles": 118,
+        "artillery": 51,
+        "aircraft": 25,
+        "helicopters": 11,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 70
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Libyen",
+      "code": "LI3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1768905596,
+      "forces": {
+        "activePersonnel": 20786,
+        "reservePersonnel": 21445
+      },
+      "equipment": {
+        "tanks": 14,
+        "armoredVehicles": 44,
+        "artillery": 19,
+        "aircraft": 10,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 54
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Liechtenstein",
+      "code": "LIE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3192741004,
+      "forces": {
+        "activePersonnel": 38189,
+        "reservePersonnel": 53899
+      },
+      "equipment": {
+        "tanks": 32,
+        "armoredVehicles": 102,
+        "artillery": 44,
+        "aircraft": 22,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Litauen",
+      "code": "LIT",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3340106468,
+      "forces": {
+        "activePersonnel": 39990,
+        "reservePersonnel": 58013
+      },
+      "equipment": {
+        "tanks": 34,
+        "armoredVehicles": 108,
+        "artillery": 47,
+        "aircraft": 23,
+        "helicopters": 10,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 68
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Luxemburg",
+      "code": "LUX",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3760662948,
+      "forces": {
+        "activePersonnel": 45130,
+        "reservePersonnel": 70531
+      },
+      "equipment": {
+        "tanks": 40,
+        "armoredVehicles": 128,
+        "artillery": 56,
+        "aircraft": 27,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Madagaskar",
+      "code": "MAD",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 245200448,
+      "forces": {
+        "activePersonnel": 2163,
+        "reservePersonnel": 1352
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 0,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 40
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Malawi",
+      "code": "MAL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2310815036,
+      "forces": {
+        "activePersonnel": 27409,
+        "reservePersonnel": 32238
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 14,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Malaysia",
+      "code": "MA2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 45771484403,
+      "forces": {
+        "activePersonnel": 227563,
+        "reservePersonnel": 338968
+      },
+      "equipment": {
+        "tanks": 356,
+        "armoredVehicles": 1139,
+        "artillery": 498,
+        "aircraft": 311,
+        "helicopters": 143,
+        "submarines": {
+          "total": 2,
+          "SSK": 2,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 10,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Maldiverna",
+      "code": "MA3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2606705552,
+      "forces": {
+        "activePersonnel": 31026,
+        "reservePersonnel": 38941
+      },
+      "equipment": {
+        "tanks": 23,
+        "armoredVehicles": 73,
+        "artillery": 32,
+        "aircraft": 17,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 61
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mali",
+      "code": "MA4",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4596231447,
+      "forces": {
+        "activePersonnel": 55342,
+        "reservePersonnel": 98822
+      },
+      "equipment": {
+        "tanks": 55,
+        "armoredVehicles": 176,
+        "artillery": 77,
+        "aircraft": 36,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Malta",
+      "code": "MA5",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3084673747,
+      "forces": {
+        "activePersonnel": 36868,
+        "reservePersonnel": 50972
+      },
+      "equipment": {
+        "tanks": 30,
+        "armoredVehicles": 96,
+        "artillery": 42,
+        "aircraft": 21,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 66
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Marshallöarna",
+      "code": "MAR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2009520016,
+      "forces": {
+        "activePersonnel": 23727,
+        "reservePersonnel": 26001
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mauretanien",
+      "code": "MAU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3180317418,
+      "forces": {
+        "activePersonnel": 38037,
+        "reservePersonnel": 53559
+      },
+      "equipment": {
+        "tanks": 31,
+        "armoredVehicles": 99,
+        "artillery": 43,
+        "aircraft": 22,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 66
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mauritius",
+      "code": "MA6",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3037932806,
+      "forces": {
+        "activePersonnel": 36296,
+        "reservePersonnel": 49729
+      },
+      "equipment": {
+        "tanks": 29,
+        "armoredVehicles": 92,
+        "artillery": 40,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mexiko",
+      "code": "MEX",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 58486001598,
+      "forces": {
+        "activePersonnel": 292292,
+        "reservePersonnel": 516470
+      },
+      "equipment": {
+        "tanks": 518,
+        "armoredVehicles": 1657,
+        "artillery": 725,
+        "aircraft": 434,
+        "helicopters": 215,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 14,
+        "airDefenseScore": 88
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mikronesien",
+      "code": "MIK",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1293679249,
+      "forces": {
+        "activePersonnel": 14978,
+        "reservePersonnel": 13554
+      },
+      "equipment": {
+        "tanks": 9,
+        "armoredVehicles": 28,
+        "artillery": 12,
+        "aircraft": 7,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Moldavien",
+      "code": "MOL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4146507106,
+      "forces": {
+        "activePersonnel": 49846,
+        "reservePersonnel": 83030
+      },
+      "equipment": {
+        "tanks": 47,
+        "armoredVehicles": 150,
+        "artillery": 65,
+        "aircraft": 31,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Monaco",
+      "code": "MON",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 851859643,
+      "forces": {
+        "activePersonnel": 9578,
+        "reservePersonnel": 7539
+      },
+      "equipment": {
+        "tanks": 5,
+        "armoredVehicles": 16,
+        "artillery": 7,
+        "aircraft": 4,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 46
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Mongoliet",
+      "code": "MO2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4615714053,
+      "forces": {
+        "activePersonnel": 55580,
+        "reservePersonnel": 99535
+      },
+      "equipment": {
+        "tanks": 55,
+        "armoredVehicles": 176,
+        "artillery": 77,
+        "aircraft": 36,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Montenegro",
+      "code": "MO3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 702440113,
+      "forces": {
+        "activePersonnel": 7752,
+        "reservePersonnel": 5793
+      },
+      "equipment": {
+        "tanks": 4,
+        "armoredVehicles": 12,
+        "artillery": 5,
+        "aircraft": 3,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 44
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Marocko",
+      "code": "MA7",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 5256977185,
+      "forces": {
+        "activePersonnel": 21308,
+        "reservePersonnel": 12904
+      },
+      "equipment": {
+        "tanks": 19,
+        "armoredVehicles": 60,
+        "artillery": 26,
+        "aircraft": 21,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Moçambique",
+      "code": "MOÇ",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3621843900,
+      "forces": {
+        "activePersonnel": 43433,
+        "reservePersonnel": 66271
+      },
+      "equipment": {
+        "tanks": 38,
+        "armoredVehicles": 121,
+        "artillery": 53,
+        "aircraft": 26,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 70
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Myanmar",
+      "code": "MYA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2449273100,
+      "forces": {
+        "activePersonnel": 29102,
+        "reservePersonnel": 35304
+      },
+      "equipment": {
+        "tanks": 21,
+        "armoredVehicles": 67,
+        "artillery": 29,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 1,
+          "SSK": 1,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Namibia",
+      "code": "NAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 523803302,
+      "forces": {
+        "activePersonnel": 5568,
+        "reservePersonnel": 3895
+      },
+      "equipment": {
+        "tanks": 3,
+        "armoredVehicles": 9,
+        "artillery": 4,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 43
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nauru",
+      "code": "NAU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4415812988,
+      "forces": {
+        "activePersonnel": 53137,
+        "reservePersonnel": 92328
+      },
+      "equipment": {
+        "tanks": 51,
+        "armoredVehicles": 163,
+        "artillery": 71,
+        "aircraft": 34,
+        "helicopters": 16,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 77
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nepal",
+      "code": "NEP",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1478940301,
+      "forces": {
+        "activePersonnel": 17242,
+        "reservePersonnel": 16455
+      },
+      "equipment": {
+        "tanks": 11,
+        "armoredVehicles": 35,
+        "artillery": 15,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nederländerna",
+      "code": "NED",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 11359403253,
+      "forces": {
+        "activePersonnel": 52375,
+        "reservePersonnel": 38692
+      },
+      "equipment": {
+        "tanks": 52,
+        "armoredVehicles": 166,
+        "artillery": 72,
+        "aircraft": 55,
+        "helicopters": 20,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 1,
+        "airDefenseScore": 54
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nya Zeeland",
+      "code": "NYA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 597059967,
+      "forces": {
+        "activePersonnel": 6464,
+        "reservePersonnel": 4649
+      },
+      "equipment": {
+        "tanks": 3,
+        "armoredVehicles": 9,
+        "artillery": 4,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 43
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nicaragua",
+      "code": "NIC",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1503819087,
+      "forces": {
+        "activePersonnel": 17546,
+        "reservePersonnel": 16862
+      },
+      "equipment": {
+        "tanks": 11,
+        "armoredVehicles": 35,
+        "artillery": 15,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 52
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Niger",
+      "code": "NIG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4280899645,
+      "forces": {
+        "activePersonnel": 51488,
+        "reservePersonnel": 87610
+      },
+      "equipment": {
+        "tanks": 49,
+        "armoredVehicles": 156,
+        "artillery": 68,
+        "aircraft": 32,
+        "helicopters": 15,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 76
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nigeria",
+      "code": "NI2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 30727505884,
+      "forces": {
+        "activePersonnel": 150976,
+        "reservePersonnel": 175332
+      },
+      "equipment": {
+        "tanks": 199,
+        "armoredVehicles": 636,
+        "artillery": 278,
+        "aircraft": 186,
+        "helicopters": 78,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 5,
+        "airDefenseScore": 68
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nordkorea",
+      "code": "NOR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4375687165,
+      "forces": {
+        "activePersonnel": 52647,
+        "reservePersonnel": 90913
+      },
+      "equipment": {
+        "tanks": 51,
+        "armoredVehicles": 163,
+        "artillery": 71,
+        "aircraft": 33,
+        "helicopters": 16,
+        "submarines": {
+          "total": 70,
+          "SSK": 70,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 21
+        },
+        "ships": 0,
+        "airDefenseScore": 77
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 192
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Nordmakedonien",
+      "code": "NO2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 432088554,
+      "forces": {
+        "activePersonnel": 4447,
+        "reservePersonnel": 3002
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 42
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Norge",
+      "code": "NO3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 10465848041,
+      "forces": {
+        "activePersonnel": 47826,
+        "reservePersonnel": 34399
+      },
+      "equipment": {
+        "tanks": 47,
+        "armoredVehicles": 150,
+        "artillery": 65,
+        "aircraft": 50,
+        "helicopters": 18,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 4
+        },
+        "ships": 1,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Oman",
+      "code": "OMA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4439276574,
+      "forces": {
+        "activePersonnel": 53424,
+        "reservePersonnel": 93161
+      },
+      "equipment": {
+        "tanks": 52,
+        "armoredVehicles": 166,
+        "artillery": 72,
+        "aircraft": 34,
+        "helicopters": 16,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 78
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Pakistan",
+      "code": "PAK",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 740650320348,
+      "forces": {
+        "activePersonnel": 1753296,
+        "reservePersonnel": 2875363
+      },
+      "equipment": {
+        "tanks": 4909,
+        "armoredVehicles": 15708,
+        "artillery": 6872,
+        "aircraft": 5026,
+        "helicopters": 2412,
+        "submarines": {
+          "total": 8,
+          "SSK": 8,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 2
+        },
+        "ships": 293,
+        "airDefenseScore": 94
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 183
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Palau",
+      "code": "PAL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3620206058,
+      "forces": {
+        "activePersonnel": 43413,
+        "reservePersonnel": 66221
+      },
+      "equipment": {
+        "tanks": 38,
+        "armoredVehicles": 121,
+        "artillery": 53,
+        "aircraft": 26,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 70
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Panama",
+      "code": "PAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 503304828,
+      "forces": {
+        "activePersonnel": 5318,
+        "reservePersonnel": 3691
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 43
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Papua Nya Guinea",
+      "code": "PAP",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 402014832,
+      "forces": {
+        "activePersonnel": 4080,
+        "reservePersonnel": 2722
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 42
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Paraguay",
+      "code": "PAR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 486666199,
+      "forces": {
+        "activePersonnel": 5114,
+        "reservePersonnel": 3527
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 2,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 42
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Peru",
+      "code": "PER",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4193921015,
+      "forces": {
+        "activePersonnel": 50425,
+        "reservePersonnel": 84632
+      },
+      "equipment": {
+        "tanks": 47,
+        "armoredVehicles": 150,
+        "artillery": 65,
+        "aircraft": 31,
+        "helicopters": 15,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 0,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Filippinerna",
+      "code": "FIL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1920962683,
+      "forces": {
+        "activePersonnel": 22645,
+        "reservePersonnel": 24281
+      },
+      "equipment": {
+        "tanks": 15,
+        "armoredVehicles": 48,
+        "artillery": 21,
+        "aircraft": 11,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 55
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Polen",
+      "code": "POL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 54048062354,
+      "forces": {
+        "activePersonnel": 269699,
+        "reservePersonnel": 450434
+      },
+      "equipment": {
+        "tanks": 459,
+        "armoredVehicles": 1468,
+        "artillery": 642,
+        "aircraft": 389,
+        "helicopters": 188,
+        "submarines": {
+          "total": 1,
+          "SSK": 1,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 12,
+        "airDefenseScore": 85
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Portugal",
+      "code": "POR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2493478520,
+      "forces": {
+        "activePersonnel": 29642,
+        "reservePersonnel": 36309
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Qatar",
+      "code": "QAT",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 29225786003,
+      "forces": {
+        "activePersonnel": 143331,
+        "reservePersonnel": 161758
+      },
+      "equipment": {
+        "tanks": 185,
+        "armoredVehicles": 592,
+        "artillery": 259,
+        "aircraft": 174,
+        "helicopters": 72,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 5,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Rumänien",
+      "code": "RUM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2264524507,
+      "forces": {
+        "activePersonnel": 26844,
+        "reservePersonnel": 31243
+      },
+      "equipment": {
+        "tanks": 19,
+        "armoredVehicles": 60,
+        "artillery": 26,
+        "aircraft": 14,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 58
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ryssland",
+      "code": "RYS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 310974795340,
+      "forces": {
+        "activePersonnel": 783906,
+        "reservePersonnel": 792672
+      },
+      "equipment": {
+        "tanks": 1578,
+        "armoredVehicles": 5049,
+        "artillery": 2209,
+        "aircraft": 1836,
+        "helicopters": 736,
+        "submarines": {
+          "total": 58,
+          "SSK": 7,
+          "SSN": 40,
+          "SSBN": 11,
+          "AIP": 0
+        },
+        "ships": 93,
+        "airDefenseScore": 73
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 4685
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Rwanda",
+      "code": "RWA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4369260267,
+      "forces": {
+        "activePersonnel": 52568,
+        "reservePersonnel": 90686
+      },
+      "equipment": {
+        "tanks": 50,
+        "armoredVehicles": 160,
+        "artillery": 70,
+        "aircraft": 33,
+        "helicopters": 16,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 77
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Saint Kitts och Nevis",
+      "code": "SAI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4141770670,
+      "forces": {
+        "activePersonnel": 49788,
+        "reservePersonnel": 82870
+      },
+      "equipment": {
+        "tanks": 46,
+        "armoredVehicles": 147,
+        "artillery": 64,
+        "aircraft": 31,
+        "helicopters": 14,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 75
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Saint Lucia",
+      "code": "SA2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1424050569,
+      "forces": {
+        "activePersonnel": 16571,
+        "reservePersonnel": 15572
+      },
+      "equipment": {
+        "tanks": 10,
+        "armoredVehicles": 32,
+        "artillery": 14,
+        "aircraft": 8,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 51
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Saint Vincent och Grenadinerna",
+      "code": "SA3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2654125353,
+      "forces": {
+        "activePersonnel": 31605,
+        "reservePersonnel": 40067
+      },
+      "equipment": {
+        "tanks": 24,
+        "armoredVehicles": 76,
+        "artillery": 33,
+        "aircraft": 17,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 62
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Samoa",
+      "code": "SAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4544472535,
+      "forces": {
+        "activePersonnel": 54710,
+        "reservePersonnel": 96938
+      },
+      "equipment": {
+        "tanks": 54,
+        "armoredVehicles": 172,
+        "artillery": 75,
+        "aircraft": 35,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "San Marino",
+      "code": "SAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2956619487,
+      "forces": {
+        "activePersonnel": 35303,
+        "reservePersonnel": 47603
+      },
+      "equipment": {
+        "tanks": 28,
+        "armoredVehicles": 89,
+        "artillery": 39,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 64
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sao Tomé och Príncipe",
+      "code": "SAO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1167177286,
+      "forces": {
+        "activePersonnel": 13432,
+        "reservePersonnel": 11702
+      },
+      "equipment": {
+        "tanks": 8,
+        "armoredVehicles": 25,
+        "artillery": 11,
+        "aircraft": 6,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 49
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Saudiarabien",
+      "code": "SAU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 435803922305,
+      "forces": {
+        "activePersonnel": 1065533,
+        "reservePersonnel": 1272096
+      },
+      "equipment": {
+        "tanks": 2389,
+        "armoredVehicles": 7644,
+        "artillery": 3344,
+        "aircraft": 2658,
+        "helicopters": 1127,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 143,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Senegal",
+      "code": "SEN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 425259877,
+      "forces": {
+        "activePersonnel": 4364,
+        "reservePersonnel": 2938
+      },
+      "equipment": {
+        "tanks": 2,
+        "armoredVehicles": 6,
+        "artillery": 2,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 42
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Serbien",
+      "code": "SER",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2438476660,
+      "forces": {
+        "activePersonnel": 28970,
+        "reservePersonnel": 35061
+      },
+      "equipment": {
+        "tanks": 21,
+        "armoredVehicles": 67,
+        "artillery": 29,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Seychellerna",
+      "code": "SEY",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2929978350,
+      "forces": {
+        "activePersonnel": 34977,
+        "reservePersonnel": 46915
+      },
+      "equipment": {
+        "tanks": 28,
+        "armoredVehicles": 89,
+        "artillery": 39,
+        "aircraft": 20,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 64
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sierra Leone",
+      "code": "SIE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 718145248,
+      "forces": {
+        "activePersonnel": 7943,
+        "reservePersonnel": 5969
+      },
+      "equipment": {
+        "tanks": 4,
+        "armoredVehicles": 12,
+        "artillery": 5,
+        "aircraft": 3,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 45
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Singapore",
+      "code": "SIN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 17089517271,
+      "forces": {
+        "activePersonnel": 81546,
+        "reservePersonnel": 70437
+      },
+      "equipment": {
+        "tanks": 89,
+        "armoredVehicles": 284,
+        "artillery": 124,
+        "aircraft": 90,
+        "helicopters": 34,
+        "submarines": {
+          "total": 4,
+          "SSK": 4,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 2
+        },
+        "ships": 2,
+        "airDefenseScore": 58
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Slovakien",
+      "code": "SLO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 186829562,
+      "forces": {
+        "activePersonnel": 1450,
+        "reservePersonnel": 884
+      },
+      "equipment": {
+        "tanks": 0,
+        "armoredVehicles": 0,
+        "artillery": 0,
+        "aircraft": 0,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 40
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Slovenien",
+      "code": "SL2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4412385420,
+      "forces": {
+        "activePersonnel": 53095,
+        "reservePersonnel": 92206
+      },
+      "equipment": {
+        "tanks": 51,
+        "armoredVehicles": 163,
+        "artillery": 71,
+        "aircraft": 34,
+        "helicopters": 16,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 77
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Salomonöarna",
+      "code": "SAL",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2247033931,
+      "forces": {
+        "activePersonnel": 26630,
+        "reservePersonnel": 30869
+      },
+      "equipment": {
+        "tanks": 19,
+        "armoredVehicles": 60,
+        "artillery": 26,
+        "aircraft": 14,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 58
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Somalia",
+      "code": "SOM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2842720971,
+      "forces": {
+        "activePersonnel": 33911,
+        "reservePersonnel": 44696
+      },
+      "equipment": {
+        "tanks": 27,
+        "armoredVehicles": 86,
+        "artillery": 37,
+        "aircraft": 19,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 63
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sydafrika",
+      "code": "SYD",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 39074140583,
+      "forces": {
+        "activePersonnel": 193468,
+        "reservePersonnel": 259911
+      },
+      "equipment": {
+        "tanks": 281,
+        "armoredVehicles": 899,
+        "artillery": 393,
+        "aircraft": 253,
+        "helicopters": 112,
+        "submarines": {
+          "total": 3,
+          "SSK": 3,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 8,
+        "airDefenseScore": 74
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sydkorea",
+      "code": "SY2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 189550246611,
+      "forces": {
+        "activePersonnel": 509960,
+        "reservePersonnel": 425045
+      },
+      "equipment": {
+        "tanks": 913,
+        "armoredVehicles": 2921,
+        "artillery": 1278,
+        "aircraft": 1119,
+        "helicopters": 424,
+        "submarines": {
+          "total": 18,
+          "SSK": 18,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 12
+        },
+        "ships": 52,
+        "airDefenseScore": 67
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sydsudan",
+      "code": "SY3",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1777298306,
+      "forces": {
+        "activePersonnel": 20889,
+        "reservePersonnel": 21598
+      },
+      "equipment": {
+        "tanks": 14,
+        "armoredVehicles": 44,
+        "artillery": 19,
+        "aircraft": 10,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 54
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Spanien",
+      "code": "SPA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 38914440772,
+      "forces": {
+        "activePersonnel": 192655,
+        "reservePersonnel": 258148
+      },
+      "equipment": {
+        "tanks": 280,
+        "armoredVehicles": 896,
+        "artillery": 392,
+        "aircraft": 252,
+        "helicopters": 111,
+        "submarines": {
+          "total": 3,
+          "SSK": 3,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 8,
+        "airDefenseScore": 74
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sri Lanka",
+      "code": "SRI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3783725494,
+      "forces": {
+        "activePersonnel": 45412,
+        "reservePersonnel": 71251
+      },
+      "equipment": {
+        "tanks": 41,
+        "armoredVehicles": 131,
+        "artillery": 57,
+        "aircraft": 27,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 72
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sudan",
+      "code": "SUD",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 323565292,
+      "forces": {
+        "activePersonnel": 3121,
+        "reservePersonnel": 2017
+      },
+      "equipment": {
+        "tanks": 1,
+        "armoredVehicles": 3,
+        "artillery": 1,
+        "aircraft": 1,
+        "helicopters": 0,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 41
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Surinam",
+      "code": "SUR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2325697097,
+      "forces": {
+        "activePersonnel": 27591,
+        "reservePersonnel": 32562
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 14,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Sverige",
+      "code": "SVE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 14962210838,
+      "forces": {
+        "activePersonnel": 70716,
+        "reservePersonnel": 57800
+      },
+      "equipment": {
+        "tanks": 75,
+        "armoredVehicles": 240,
+        "artillery": 105,
+        "aircraft": 77,
+        "helicopters": 29,
+        "submarines": {
+          "total": 5,
+          "SSK": 5,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 3
+        },
+        "ships": 2,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Schweiz",
+      "code": "SCH",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3106576310,
+      "forces": {
+        "activePersonnel": 37135,
+        "reservePersonnel": 51558
+      },
+      "equipment": {
+        "tanks": 30,
+        "armoredVehicles": 96,
+        "artillery": 42,
+        "aircraft": 21,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 66
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Syrien",
+      "code": "SYR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2475240885,
+      "forces": {
+        "activePersonnel": 29419,
+        "reservePersonnel": 35893
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tadzjikistan",
+      "code": "TAD",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 863058968,
+      "forces": {
+        "activePersonnel": 9715,
+        "reservePersonnel": 7676
+      },
+      "equipment": {
+        "tanks": 5,
+        "armoredVehicles": 16,
+        "artillery": 7,
+        "aircraft": 4,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 46
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tanzania",
+      "code": "TAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1224191114,
+      "forces": {
+        "activePersonnel": 14129,
+        "reservePersonnel": 12524
+      },
+      "equipment": {
+        "tanks": 8,
+        "armoredVehicles": 25,
+        "artillery": 11,
+        "aircraft": 6,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 49
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Thailand",
+      "code": "THA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 5594609785,
+      "forces": {
+        "activePersonnel": 23027,
+        "reservePersonnel": 14114
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 23,
+        "helicopters": 8,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Östtimor",
+      "code": "ÖS2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3069109973,
+      "forces": {
+        "activePersonnel": 36678,
+        "reservePersonnel": 50558
+      },
+      "equipment": {
+        "tanks": 30,
+        "armoredVehicles": 96,
+        "artillery": 42,
+        "aircraft": 21,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Togo",
+      "code": "TOG",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1688833218,
+      "forces": {
+        "activePersonnel": 19807,
+        "reservePersonnel": 20012
+      },
+      "equipment": {
+        "tanks": 13,
+        "armoredVehicles": 41,
+        "artillery": 18,
+        "aircraft": 10,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tonga",
+      "code": "TON",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1038082075,
+      "forces": {
+        "activePersonnel": 11854,
+        "reservePersonnel": 9919
+      },
+      "equipment": {
+        "tanks": 7,
+        "armoredVehicles": 22,
+        "artillery": 9,
+        "aircraft": 5,
+        "helicopters": 1,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 47
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Trinidad och Tobago",
+      "code": "TRI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1300455722,
+      "forces": {
+        "activePersonnel": 15061,
+        "reservePersonnel": 13657
+      },
+      "equipment": {
+        "tanks": 9,
+        "armoredVehicles": 28,
+        "artillery": 12,
+        "aircraft": 7,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tunisien",
+      "code": "TUN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3144459911,
+      "forces": {
+        "activePersonnel": 37598,
+        "reservePersonnel": 52581
+      },
+      "equipment": {
+        "tanks": 31,
+        "armoredVehicles": 99,
+        "artillery": 43,
+        "aircraft": 21,
+        "helicopters": 9,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 66
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Turkiet",
+      "code": "TUR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 309056711824,
+      "forces": {
+        "activePersonnel": 779579,
+        "reservePersonnel": 786108
+      },
+      "equipment": {
+        "tanks": 1567,
+        "armoredVehicles": 5014,
+        "artillery": 2193,
+        "aircraft": 1824,
+        "helicopters": 731,
+        "submarines": {
+          "total": 12,
+          "SSK": 12,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 8
+        },
+        "ships": 93,
+        "airDefenseScore": 73
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Turkmenistan",
+      "code": "TU2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1877713928,
+      "forces": {
+        "activePersonnel": 22116,
+        "reservePersonnel": 23458
+      },
+      "equipment": {
+        "tanks": 15,
+        "armoredVehicles": 48,
+        "artillery": 21,
+        "aircraft": 11,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 55
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Tuvalu",
+      "code": "TUV",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2149718843,
+      "forces": {
+        "activePersonnel": 25441,
+        "reservePersonnel": 28831
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Uganda",
+      "code": "UGA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4218780100,
+      "forces": {
+        "activePersonnel": 50729,
+        "reservePersonnel": 85478
+      },
+      "equipment": {
+        "tanks": 48,
+        "armoredVehicles": 153,
+        "artillery": 67,
+        "aircraft": 32,
+        "helicopters": 15,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 76
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Ukraina",
+      "code": "UKR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 41519101262,
+      "forces": {
+        "activePersonnel": 205915,
+        "reservePersonnel": 287618
+      },
+      "equipment": {
+        "tanks": 308,
+        "armoredVehicles": 985,
+        "artillery": 431,
+        "aircraft": 274,
+        "helicopters": 123,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 8,
+        "airDefenseScore": 76
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Förenade arabemiraten",
+      "code": "FÖR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 5051811372,
+      "forces": {
+        "activePersonnel": 20263,
+        "reservePersonnel": 12180
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 20,
+        "helicopters": 7,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 50
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Storbritannien",
+      "code": "STO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 825940629453,
+      "forces": {
+        "activePersonnel": 1945719,
+        "reservePersonnel": 3433787
+      },
+      "equipment": {
+        "tanks": 5751,
+        "armoredVehicles": 18403,
+        "artillery": 8051,
+        "aircraft": 5780,
+        "helicopters": 2864,
+        "submarines": {
+          "total": 10,
+          "SSK": 3,
+          "SSN": 5,
+          "SSBN": 2,
+          "AIP": 0
+        },
+        "ships": 342,
+        "airDefenseScore": 95
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 316
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "USA",
+      "code": "USA",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 831681100922,
+      "forces": {
+        "activePersonnel": 1958670,
+        "reservePersonnel": 3473097
+      },
+      "equipment": {
+        "tanks": 5810,
+        "armoredVehicles": 18592,
+        "artillery": 8133,
+        "aircraft": 5832,
+        "helicopters": 2896,
+        "submarines": {
+          "total": 68,
+          "SSK": 8,
+          "SSN": 47,
+          "SSBN": 13,
+          "AIP": 0
+        },
+        "ships": 345,
+        "airDefenseScore": 95
+      },
+      "nuclear": {
+        "status": "declared",
+        "estimatedWarheads": 5955
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Uruguay",
+      "code": "URU",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3436947138,
+      "forces": {
+        "activePersonnel": 41173,
+        "reservePersonnel": 60792
+      },
+      "equipment": {
+        "tanks": 35,
+        "armoredVehicles": 112,
+        "artillery": 49,
+        "aircraft": 24,
+        "helicopters": 11,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 69
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Uzbekistan",
+      "code": "UZB",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1872542676,
+      "forces": {
+        "activePersonnel": 22053,
+        "reservePersonnel": 23361
+      },
+      "equipment": {
+        "tanks": 15,
+        "armoredVehicles": 48,
+        "artillery": 21,
+        "aircraft": 11,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 55
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Vanuatu",
+      "code": "VAN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2353453816,
+      "forces": {
+        "activePersonnel": 27931,
+        "reservePersonnel": 33170
+      },
+      "equipment": {
+        "tanks": 20,
+        "armoredVehicles": 64,
+        "artillery": 28,
+        "aircraft": 15,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 59
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Venezuela",
+      "code": "VEN",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3549297050,
+      "forces": {
+        "activePersonnel": 42546,
+        "reservePersonnel": 64094
+      },
+      "equipment": {
+        "tanks": 37,
+        "armoredVehicles": 118,
+        "artillery": 51,
+        "aircraft": 25,
+        "helicopters": 11,
+        "submarines": {
+          "total": 2,
+          "SSK": 2,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 70
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Vietnam",
+      "code": "VIE",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 25827082048,
+      "forces": {
+        "activePersonnel": 126028,
+        "reservePersonnel": 132885
+      },
+      "equipment": {
+        "tanks": 156,
+        "armoredVehicles": 499,
+        "artillery": 218,
+        "aircraft": 149,
+        "helicopters": 60,
+        "submarines": {
+          "total": 6,
+          "SSK": 6,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 1
+        },
+        "ships": 4,
+        "airDefenseScore": 65
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Jemen",
+      "code": "JEM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2060259260,
+      "forces": {
+        "activePersonnel": 24347,
+        "reservePersonnel": 27010
+      },
+      "equipment": {
+        "tanks": 17,
+        "armoredVehicles": 54,
+        "artillery": 23,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Zambia",
+      "code": "ZAM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1635866483,
+      "forces": {
+        "activePersonnel": 19160,
+        "reservePersonnel": 19087
+      },
+      "equipment": {
+        "tanks": 12,
+        "armoredVehicles": 38,
+        "artillery": 16,
+        "aircraft": 9,
+        "helicopters": 3,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 53
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Zimbabwe",
+      "code": "ZIM",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1974664515,
+      "forces": {
+        "activePersonnel": 23301,
+        "reservePersonnel": 25318
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Taiwan",
+      "code": "TAI",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 57085455146,
+      "forces": {
+        "activePersonnel": 285162,
+        "reservePersonnel": 495158
+      },
+      "equipment": {
+        "tanks": 499,
+        "armoredVehicles": 1596,
+        "artillery": 698,
+        "aircraft": 420,
+        "helicopters": 206,
+        "submarines": {
+          "total": 2,
+          "SSK": 2,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 14,
+        "airDefenseScore": 87
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Kosovo",
+      "code": "KOS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 4639598173,
+      "forces": {
+        "activePersonnel": 55872,
+        "reservePersonnel": 100414
+      },
+      "equipment": {
+        "tanks": 55,
+        "armoredVehicles": 176,
+        "artillery": 77,
+        "aircraft": 36,
+        "helicopters": 17,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 79
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Palestina",
+      "code": "PA2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2022598669,
+      "forces": {
+        "activePersonnel": 23887,
+        "reservePersonnel": 26260
+      },
+      "equipment": {
+        "tanks": 16,
+        "armoredVehicles": 51,
+        "artillery": 22,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Västsahara",
+      "code": "VÄS",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2511252460,
+      "forces": {
+        "activePersonnel": 29859,
+        "reservePersonnel": 36716
+      },
+      "equipment": {
+        "tanks": 22,
+        "armoredVehicles": 70,
+        "artillery": 30,
+        "aircraft": 16,
+        "helicopters": 6,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 60
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Hongkong",
+      "code": "HO2",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2057289258,
+      "forces": {
+        "activePersonnel": 24311,
+        "reservePersonnel": 26951
+      },
+      "equipment": {
+        "tanks": 17,
+        "armoredVehicles": 54,
+        "artillery": 23,
+        "aircraft": 12,
+        "helicopters": 4,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 56
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Färöarna",
+      "code": "FÄR",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 2121851902,
+      "forces": {
+        "activePersonnel": 25100,
+        "reservePersonnel": 28258
+      },
+      "equipment": {
+        "tanks": 18,
+        "armoredVehicles": 57,
+        "artillery": 25,
+        "aircraft": 13,
+        "helicopters": 5,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 57
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Grönland",
+      "code": "GRÖ",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 3705006027,
+      "forces": {
+        "activePersonnel": 44450,
+        "reservePersonnel": 68808
+      },
+      "equipment": {
+        "tanks": 39,
+        "armoredVehicles": 124,
+        "artillery": 54,
+        "aircraft": 27,
+        "helicopters": 12,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 71
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    },
+    {
+      "name": "Skottland",
+      "code": "SKO",
+      "region": null,
+      "population": null,
+      "gdpUSD": null,
+      "defenseBudgetUSD": 1225002702,
+      "forces": {
+        "activePersonnel": 14138,
+        "reservePersonnel": 12535
+      },
+      "equipment": {
+        "tanks": 8,
+        "armoredVehicles": 25,
+        "artillery": 11,
+        "aircraft": 6,
+        "helicopters": 2,
+        "submarines": {
+          "total": 0,
+          "SSK": 0,
+          "SSN": 0,
+          "SSBN": 0,
+          "AIP": 0
+        },
+        "ships": 0,
+        "airDefenseScore": 49
+      },
+      "nuclear": {
+        "status": "none",
+        "estimatedWarheads": null
+      },
+      "synthetic_estimate": true,
+      "method": "tiered-heuristic-v1 (budget/personnel/equipment scaled by size tier; curated overrides for nuclear/submariner)",
+      "notes": "Ej officiell statistik. Byt ut mot verifierade siffror när tillgängligt."
+    }
+  ]
+}
