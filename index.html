@@ -3,271 +3,71 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Land vs Land – Enkel & Rättvis</title>
+  <title>Militärregister – Världens länder</title>
   <style>
     :root{
-      --bg:#f7fafc; --text:#0b1220; --muted:#5a6b88; --card:#ffffff; --border:#e2e8f0;
-      --accent:#2563eb; --win:#16a34a; --lose:#dc2626; --chip:#eef2f7; --bar:#dbe7ff;
+      --bg:#f6f8fb; --text:#0a1020; --muted:#5b6b89; --card:#ffffff; --border:#e6ecf5; --accent:#3b82f6;
     }
     *{box-sizing:border-box}
-    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; background:var(--bg); color:var(--text)}
-    .wrap{max-width:980px; margin:28px auto; padding:0 16px}
-    header{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px}
-    h1{font-size:22px; margin:0 0 6px}
+    body{margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif; color:var(--text); background:linear-gradient(180deg,#f0f4ff 0%, #f6f8fb 40%, #f6f8fb 100%)}
+    .wrap{max-width:1040px; margin:0 auto; padding:28px 16px 48px}
+    header{display:flex; align-items:center; justify-content:space-between}
+    .brand{display:flex; gap:10px; align-items:center}
+    .logo{width:36px; height:36px; border-radius:10px; background:#e6eeff; display:grid; place-items:center; font-weight:800; color:#2b57d6}
+    a{color:inherit; text-decoration:none}
+
+    .hero{margin-top:40px; display:grid; grid-template-columns: 1.1fr .9fr; gap:24px}
+    @media (max-width:950px){.hero{grid-template-columns:1fr}}
+    .hcopy{padding:22px 22px; background:var(--card); border:1px solid var(--border); border-radius:16px}
+    .kicker{font-size:12px; color:var(--muted); letter-spacing:.2px}
+    h1{margin:6px 0 8px; font-size:32px}
     p{margin:6px 0 0; color:var(--muted)}
-    .card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-top:16px}
+    .cta{margin-top:16px; display:flex; gap:10px}
+    .btn{padding:12px 16px; border-radius:12px; border:1px solid var(--border); font-weight:700; cursor:pointer}
+    .btn.primary{background:var(--accent); color:#fff; border-color:#3575e6}
+    .btn.ghost{background:#fff}
 
-    .row{display:grid; grid-template-columns: 1fr 1fr auto; gap:10px}
-    label{font-size:12px; color:var(--muted)}
-    input, button{font:inherit}
-    input{width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--border); background:#fff}
-    button{padding:10px 14px; border-radius:10px; border:1px solid var(--border); background:var(--accent); color:#fff; font-weight:600; cursor:pointer}
-    button:disabled{opacity:.6; cursor:not-allowed}
-    .hidden{display:none}
-
-    .summary{display:flex; gap:10px; align-items:center; padding:12px; border:1px solid var(--border); border-radius:12px; background:var(--chip)}
-    .summary .pill{display:inline-block; padding:2px 8px; border-radius:999px; border:1px solid var(--border); background:#fff; color:var(--muted); font-size:12px}
-
-    .cols{display:grid; grid-template-columns: 1fr 1fr; gap:12px; margin-top:12px}
-    .col{border:1px solid var(--border); border-radius:12px; padding:12px; background:#fff}
-    .countryTitle{font-weight:800; font-size:18px; margin-bottom:2px}
-    .score{font-size:13px; color:var(--muted)}
-
-    .metricRow{display:grid; grid-template-columns: 1fr; gap:6px; margin-top:10px}
-    .metric{display:flex; justify-content:space-between; gap:12px; font-size:13px}
-    .label{color:var(--muted)}
-    .val{font-weight:700}
-
-    .barWrap{width:100%; height:8px; border-radius:999px; background:var(--bar); overflow:hidden}
-    .bar{height:100%; background:var(--accent)}
-
-    .foot{font-size:12px; color:var(--muted); margin-top:12px}
-    .good{color:var(--win)}
-    .bad{color:var(--lose)}
+    .panel{padding:22px 22px; background:var(--card); border:1px solid var(--border); border-radius:16px}
+    .list{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:12px}
+    @media (max-width:950px){.list{grid-template-columns:1fr}}
+    .item{padding:12px; border:1px solid var(--border); border-radius:12px; background:#fff}
+    .muted{color:var(--muted); font-size:13px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>Land vs Land (Light & Fair)</h1>
-      <p>Välj två länder och tryck <strong>Jämför</strong>. Inget visas förrän du väljer. 
-        Data hämtas från <code>countries.json</code> och normaliseras (log-skala) för en rättvis jämförelse.</p>
+      <div class="brand"><div class="logo">MR</div><strong>Militärregister</strong></div>
+      <nav><a href="start.html" class="btn ghost">Starta jämförelse →</a></nav>
     </header>
 
-    <section class="card">
-      <div class="row">
-        <div>
-          <label for="aInput">Land A</label>
-          <input id="aInput" list="countryList" placeholder="Sök land ..." />
-        </div>
-        <div>
-          <label for="bInput">Land B</label>
-          <input id="bInput" list="countryList" placeholder="Sök land ..." />
-        </div>
-        <div style="display:flex; align-items:end;">
-          <button id="compareBtn" disabled>Jämför</button>
+    <section class="hero">
+      <div class="hcopy">
+        <div class="kicker">GLOBAL ÖVERSIKT</div>
+        <h1>Jämför länder – tydligt, rättvist och snyggt</h1>
+        <p>Byggt för snabb jämförelse av militär kapacitet med log-normaliserade mått och transparent viktning. 
+        Stöd för ubåtskvalitet (AIP/stealth), uthållighetsbedömning och beslutsäkerhet.</p>
+        <div class="cta">
+          <a class="btn primary" href="start.html">Starta jämförelse</a>
+          <a class="btn ghost" href="countries.json">Se datafil</a>
         </div>
       </div>
-      <datalist id="countryList"></datalist>
-
-      <div id="result" class="hidden">
-        <div id="summary" class="summary"></div>
-
-        <div class="cols">
-          <div class="col" id="colA"></div>
-          <div class="col" id="colB"></div>
+      <div class="panel">
+        <h3 style="margin:0 0 8px">Hur det funkar</h3>
+        <div class="list">
+          <div class="item"><strong>1. Välj två länder</strong><div class="muted">Autocomplete på svenska. Inget visas förrän du väljer.</div></div>
+          <div class="item"><strong>2. Rättvis normalisering</strong><div class="muted">Log-skala per mått för att undvika att jättar dominerar enbart på volym.</div></div>
+          <div class="item"><strong>3. Ubåtar: antal + kvalitet</strong><div class="muted">AIP/stealth ger extra kvalitetspoäng. Sverige får rättvist plus.</div></div>
+          <div class="item"><strong>4. Uthållighet & beslut</strong><div class="muted">Beräknad uthållighet (dagar) och beslutsäkerhet i % baserat på data.</div></div>
         </div>
-
-        <div class="foot">Poängen väger: Budget 25%, Aktiv personal 18%, Flyg 20%, Stridsvagnar 15%, Ubåtsförmåga 10%, Luftförsvar 9%, Kärnvapen 3%. 
-          Uthållighet ("överlevnad") beräknas grovt från budget och styrkstorlek. 
-          Beslutsäkerhet bygger på poängskillnad och datatäckning. Förenklad modell.</div>
       </div>
     </section>
+
+    <section class="panel" style="margin-top:24px">
+      <h3 style="margin:0 0 8px">Transparens</h3>
+      <p class="muted">Modellen är förenklad och avsedd för visualisering. Använd <code>countries.json</code> för att lägga in
+        verifierade siffror per land. Poängvikter och metod kan justeras i koden.</p>
+    </section>
   </div>
-
-  <script>
-    // --- Helpers ---
-    const fmt = (v)=>{
-      if(v==null) return '–';
-      if(typeof v!=='number' || isNaN(v)) return String(v);
-      if(v>=1e12) return (v/1e12).toFixed(2)+' tn';
-      if(v>=1e9) return (v/1e9).toFixed(2)+' md';
-      if(v>=1e6) return (v/1e6).toFixed(1)+' M';
-      if(v>=1e3) return (v/1e3).toFixed(1)+' k';
-      return String(v);
-    };
-    const n = (v)=> (typeof v==='number' && !Number.isNaN(v)) ? v : 0;
-
-    async function loadData(){
-      const res = await fetch('countries.json', {cache:'no-store'});
-      if(!res.ok) throw new Error('Kunde inte läsa countries.json');
-      const js = await res.json();
-      return js.countries || js;
-    }
-
-    function metrics(c){
-      return {
-        name: c.name,
-        budget: n(c.defenseBudgetUSD),
-        active: n(c.forces?.activePersonnel),
-        aircraft: n(c.equipment?.aircraft),
-        tanks: n(c.equipment?.tanks),
-        subs: n(c.equipment?.submarines?.total) + Math.min(5, n(c.equipment?.submarines?.AIP))*0.5, // liten bonus för AIP
-        airdef: n(c.equipment?.airDefenseScore),
-        nuclear: c.nuclear?.status==='declared' ? 100 : c.nuclear?.status==='undeclared' ? 50 : 0,
-        synthetic: !!c.synthetic_estimate
-      };
-    }
-
-    function buildNormalizers(all){
-      const keys = ['budget','active','aircraft','tanks','subs','airdef','nuclear'];
-      const mAll = all.map(metrics);
-      const ranges = {};
-      for(const k of keys){
-        const arr = mAll.map(m=>m[k]).filter(x=>typeof x==='number');
-        const min = Math.min(...arr, 0);
-        const max = Math.max(...arr, 1);
-        const lmin = Math.log10(1+Math.max(0,min));
-        const lmax = Math.log10(1+Math.max(0,max));
-        ranges[k] = {min,max,lmin,lmax};
-      }
-      function norm(k, v){
-        const r = ranges[k];
-        const lv = Math.log10(1+Math.max(0, v));
-        const span = Math.max(1e-6, r.lmax - r.lmin);
-        return Math.max(0, Math.min(1, (lv - r.lmin) / span));
-      }
-      return { norm };
-    }
-
-    const WEIGHTS = { budget:.25, active:.18, aircraft:.2, tanks:.15, subs:.1, airdef:.09, nuclear:.03 };
-
-    function score(m, norm){
-      let s = 0; const parts = {}; let nonNull=0;
-      for(const k in WEIGHTS){
-        const raw = m[k];
-        const v = norm(k, raw);
-        const w = WEIGHTS[k];
-        parts[k] = {raw, norm:v, contrib: v*w};
-        s += v*w;
-        if(raw && raw>0) nonNull++;
-      }
-      // coverage: proportion of present metrics
-      const coverage = nonNull / Object.keys(WEIGHTS).length;
-      return { total: s*100, parts, coverage };
-    }
-
-    function enduranceDays(m){
-      const budget = m.budget;
-      const act = Math.max(1, m.active);
-      const base = (budget/1e9) / Math.log10(10 + act/10000);
-      const days = Math.round(Math.max(30, Math.min(3650, base*60)));
-      return days; // ~1 till 10 år
-    }
-
-    function decision(sa, sb, ma, mb){
-      const diff = Math.abs(sa.total - sb.total); // 0..100
-      const baseConf = Math.min(95, 40 + diff*0.6); // 40–95%
-      const cov = Math.min(sa.coverage, sb.coverage);
-      const covPenalty = (1 - cov) * 20; // upp till -20p om mycket saknas
-      const synthPenalty = (ma.synthetic || mb.synthetic) ? 5 : 0; // liten nedjustering
-      const confidence = Math.max(20, Math.min(95, Math.round(baseConf - covPenalty - synthPenalty)));
-      // beslutstid: 10–60 dagar, snabbare vid stor diff
-      const ttd = Math.round(60 - Math.min(50, diff*0.6));
-      return { ttd: Math.max(10, ttd), confidence };
-    }
-
-    function barHTML(frac){
-      const w = Math.max(2, Math.min(100, Math.round(frac*100)));
-      return `<div class="barWrap"><div class="bar" style="width:${w}%"></div></div>`;
-    }
-
-    function countryColumn(m, s, e){
-      return `
-        <div class="countryTitle">${m.name}</div>
-        <div class="score">Poäng: <strong>${s.total.toFixed(1)}</strong> · Täckning: ${(s.coverage*100|0)}%</div>
-
-        <div class="metricRow">
-          <div class="metric"><span class="label">Försvarsbudget</span><span class="val">$ ${fmt(m.budget)}</span></div>
-          ${barHTML(s.parts.budget.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Aktiv personal</span><span class="val">${fmt(m.active)}</span></div>
-          ${barHTML(s.parts.active.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Flygplan</span><span class="val">${fmt(m.aircraft)}</span></div>
-          ${barHTML(s.parts.aircraft.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Stridsvagnar</span><span class="val">${fmt(m.tanks)}</span></div>
-          ${barHTML(s.parts.tanks.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Ubåtsförmåga (just.)</span><span class="val">${fmt(m.subs)}</span></div>
-          ${barHTML(s.parts.subs.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Luftförsvar (0–100)</span><span class="val">${fmt(m.airdef)}</span></div>
-          ${barHTML(s.parts.airdef.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Kärnvapendisk.</span><span class="val">${fmt(m.nuclear)}</span></div>
-          ${barHTML(s.parts.nuclear.norm)}
-        </div>
-        <div class="metricRow">
-          <div class="metric"><span class="label">Förväntad uthållighet</span><span class="val">${e} dagar</span></div>
-          ${barHTML(Math.min(1, e/3650))}
-        </div>
-      `;
-    }
-
-    (async function(){
-      let countries = [];
-      try{ countries = await loadData(); }catch(err){ alert(err.message); return; }
-
-      // datalist
-      const dl = document.getElementById('countryList');
-      countries.sort((a,b)=>a.name.localeCompare(b.name,'sv')).forEach(c=>{
-        const o = document.createElement('option'); o.value=c.name; dl.appendChild(o);
-      });
-
-      const A = document.getElementById('aInput');
-      const B = document.getElementById('bInput');
-      const btn = document.getElementById('compareBtn');
-      const result = document.getElementById('result');
-      const summary = document.getElementById('summary');
-      const colA = document.getElementById('colA');
-      const colB = document.getElementById('colB');
-
-      function ready(){ btn.disabled = !(A.value && B.value && A.value!==B.value); }
-      A.addEventListener('input', ready); B.addEventListener('input', ready);
-
-      const norm = buildNormalizers(countries);
-
-      btn.addEventListener('click', ()=>{
-        const ca = countries.find(c=>c.name.toLowerCase()===A.value.toLowerCase());
-        const cb = countries.find(c=>c.name.toLowerCase()===B.value.toLowerCase());
-        if(!ca || !cb){ alert('Hitta båda länderna i listan.'); return; }
-
-        const ma = metrics(ca), mb = metrics(cb);
-        const sa = score(ma, norm.norm), sb = score(mb, norm.norm);
-        const ea = enduranceDays(ma), eb = enduranceDays(mb);
-        const { ttd, confidence } = decision(sa, sb, ma, mb);
-
-        const winner = sa.total===sb.total ? null : (sa.total>sb.total? ma.name : mb.name);
-        const longest = Math.max(ea, eb);
-
-        summary.innerHTML = winner
-          ? `<span class="pill">Vinnare</span> <strong>${winner}</strong> · beslut ~ ${ttd} dagar · säkerhet ${confidence}% · längst uthållighet ${longest} dagar`
-          : `<span class="pill">Oavgjort</span> ${ma.name} vs ${mb.name} · beslut ~ ${ttd} dagar · säkerhet ${confidence}% · längst uthållighet ${longest} dagar`;
-
-        colA.innerHTML = countryColumn(ma, sa, ea);
-        colB.innerHTML = countryColumn(mb, sb, eb);
-        result.classList.remove('hidden');
-        result.scrollIntoView({behavior:'smooth'});
-      });
-    })();
-  </script>
 </body>
 </html>
